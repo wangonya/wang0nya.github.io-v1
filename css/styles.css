@@ -1,3 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+}
+.home {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.avatar {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	-moz-box-shadow: 0px 6px 5px #ccc;
+	-webkit-box-shadow: 0px 6px 5px #ccc;
+	box-shadow: 0px 6px 5px #ccc;
+}
+.info {
+	padding-top: 20px;
+}
