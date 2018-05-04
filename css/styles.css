@@ -2,11 +2,13 @@
 /* CSS Document */
 body, html {
 	font-family: 'Open Sans', sans-serif;
-	height: 100%;
 }
 .home {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
 }
 .avatar {
 	height: 200px;
@@ -17,5 +19,80 @@ body, html {
 	box-shadow: 0px 6px 5px #ccc;
 }
 .info {
+	padding-top: 30px;
+}
+.social {
+	padding-top: 30px;/*	position: fixed;*/
+}
+.fa-twitter:hover {
+	color: #55ccee;
+}
+.fa-twitter {
+	color: #a3a3a3;
+}
+.fa-facebook:hover {
+	color: #3b5998;
+}
+.fa-facebook {
+	color: #a3a3a3;
+}
+.fa-instagram:hover {
+	color: #fb3958;
+}
+.fa-instagram {
+	color: #a3a3a3;
+}
+.fa-linkedin:hover {
+	color: #4875B4;
+}
+.fa-linkedin {
+	color: #a3a3a3;
+}
+.fa-github:hover {
+	color: black;
+}
+.fa-github {
+	color: #a3a3a3;
+}
+.hire-button {
+	padding-top: 30px;
+}
+.see-more {
+	padding-top: 30px;
+}
+a:link {
+	color: #a3a3a3;
+}
+a:hover {
+/*    text-decoration: none;*/
+}
+a:visited {
+	text-decoration: none;
+	color: #a3a3a3;
+}
+a:active {
+	text-decoration: none;
+	color: #a3a3a3;
+}
+.project {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60vh;
+	flex-direction: column;
+}
+.project-visual {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.launch-button {
 	padding-top: 20px;
+}
+.box-shadow--4dp {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2)
+}
+.box-shadow--16dp {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2)
 }
