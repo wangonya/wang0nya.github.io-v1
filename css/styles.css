@@ -1,8 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-body, html {
-	font-family: 'Open Sans', sans-serif;
-}
 .home {
 	display: flex;
 	align-items: center;
@@ -10,7 +7,7 @@ body, html {
 	height: 100vh;
 	flex-direction: column;
 }
-.avatar {
+.myavatar {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
@@ -54,26 +51,22 @@ body, html {
 .fa-github {
 	color: #a3a3a3;
 }
+.fa-angular {
+    color: red;
+}
+.fa-wordpress {
+    color: #21759b;
+}
+.fa-js {
+    color: yellow;
+}
 .hire-button {
 	padding-top: 30px;
 }
 .see-more {
 	padding-top: 30px;
 }
-a:link {
-	color: #a3a3a3;
-}
-a:hover {
-/*    text-decoration: none;*/
-}
-a:visited {
-	text-decoration: none;
-	color: #a3a3a3;
-}
-a:active {
-	text-decoration: none;
-	color: #a3a3a3;
-}
+
 .project {
 	display: flex;
 	align-items: center;

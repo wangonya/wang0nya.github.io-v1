@@ -7,58 +7,158 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/paper-kit.css">
+    <link rel="stylesheet" href="css/nucleo-icons.css">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<div class="container">
-  <div class="home text-secondary text-center"> <img src="img/me.jpg" alt="display-picture" class="avatar img-fluid">
-    <div class="info">
-      <h3>Kinyanjui Wangonya</h3>
-      <h6>Web/Mobile Developer</h6>
-    </div>
-    <div class="social"> <a href="https://twitter.com/kwang0nya" target="_blank"><i class="fab fa-twitter fa-lg fa-fw"></i></a> <a href="https://www.facebook.com/kinyanjui.wangonya.1" target="_blank"><i class="fab fa-facebook fa-lg fa-fw"></i></a> <a href="https://www.instagram.com/kwangonya/" target="_blank"><i class="fab fa-instagram fa-lg fa-fw"></i></a> <a href="www.linkedin.com/in/kinyanjui-wangonya-711a68122" target="_blank"><i class="fab fa-linkedin fa-lg fa-fw"></i></a> <a href="https://github.com/wang0nya" target="_blank"><i class="fab fa-github fa-lg fa-fw"></i></a> </div>
-    <div class="hire-button">
-      <button type="button" class="btn btn-outline-danger btn-lg box-shadow--16dp">HIRE ME</button>
-    </div>
-    <div class="see-more"> <a href="#projects">I'll need to see what you've done first</a> </div>
-  </div>
-</div>
-<section id="projects">
-  <div class="container text-secondary">
-    <div class="project">
-      <div class="row">
-        <div class="col-md-6 project-visual">
-          <div class="project-mockup"> <img src="img/SL-mockup.png" alt=""> </div>
-          <div class="launch-button"> <a href="#" target="_blank">
-            <button type="button" class="btn btn-outline-danger box-shadow--4dp">Launch</button>
-            </a> </div>
-        </div>
-        <div class="col-md-6">
-          <h5>Project Name</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam perferendis unde, nulla eveniet illo adipisci soluta ullam possimus asperiores ea et, quisquam ad porro eius at dolorem saepe officiis!</p>
-        </div>
-      </div>
-    </div>
-    <div class="project">
-      <div class="row">
-        <div class="col-md-6">
-          <h5>Project Name</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsam perferendis unde, nulla eveniet illo adipisci soluta ullam possimus asperiores ea et, quisquam ad porro eius at dolorem saepe officiis!</p>
-        </div>
-        <div class="col-md-6 project-visual">
-          <div class="project-mockup"> <img src="img/Untitled.png" alt=""> </div>
-          <div class="launch-button"> <a href="#" target="_blank">
-            <button type="button" class="btn btn-outline-danger box-shadow--4dp">Launch</button>
-            </a> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!--js--> 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> 
-<script src="js/main.js"></script>
+<div class="wrapper">
+    <div class="section profile-content">
+        <div class="container">
+            <div class="owner home text-center">
+                <div>
+                    <img src="img/me.jpg" alt="Circle Image" class="img-responsive myavatar">
+                </div>
+                <div class="name">
+                    <h4 class="title">Kinyanjui Wangonya<br /></h4>
+                    <h6 class="description">Web/mobile Developer</h6>
+                </div>
+                <div class="social"> <a href="https://twitter.com/kwang0nya" target="_blank"><i class="fab fa-twitter fa-lg fa-fw"></i></a> <a href="https://www.facebook.com/kinyanjui.wangonya.1" target="_blank"><i class="fab fa-facebook fa-lg fa-fw"></i></a> <a href="https://www.instagram.com/kwangonya/" target="_blank"><i class="fab fa-instagram fa-lg fa-fw"></i></a> <a href="www.linkedin.com/in/kinyanjui-wangonya-711a68122" target="_blank"><i class="fab fa-linkedin fa-lg fa-fw"></i></a> <a href="https://github.com/wang0nya" target="_blank"><i class="fab fa-github fa-lg fa-fw"></i></a> </div>
+                <div class="hire-button">
+                    <button type="button" class="btn btn-success btn-round btn-lg box-shadow--16dp" data-toggle="modal" data-target="#myModal">HIRE ME</button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center" id="exampleModalLabel">Nice! Drop me a message and I'll get back to you ASAP</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 ml-auto mr-auto">
+                                        <form class="contact-form" id="ajax-contact" method="post" action="mailer.php">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <label>Name</label>
+                                                    <div class="input-group">
+	                                        <span class="input-group-addon">
+	                                            <i class="nc-icon nc-single-02"></i>
+	                                        </span>
+                                                        <input type="text" class="form-control" placeholder="Name"  id="name" name="name" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <label>Email</label>
+                                                    <div class="input-group">
+											<span class="input-group-addon">
+												<i class="nc-icon nc-email-85"></i>
+											</span>
+                                                        <input type="text" class="form-control" placeholder="Email" id="email" name="email" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <label>Message</label>
+                                            <textarea class="form-control" rows="4" placeholder="Talk to me..." required id="message" name="message"></textarea>
+                                            <div class="row">
+                                                <div class="col-md-6 offset-md-3">
+                                                    <input class="btn btn-primary btn-lg btn-round" id="sendMessage" name="sendMessage" type="submit" value="Send Message">
+                                                </div>
+                                            </div>
+                                            <br><br>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-more"> <a data-scroll href="#projects">I'll need to see what you've done first</a> </div>
+            </div>
+        </div>
+    </div>
+    <section id="projects">
+        <div class="container">
+            <div class="project">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 project-visual">
+                            <div class="project-mockup"> <img src="img/camper.png" alt=""> </div>
+                            <div class="launch-button"> <a href="#" target="_blank">
+                                <a href="https://camperproject.herokuapp.com/" target="_blank" class="btn btn-info btn-round box-shadow--4dp">Launch</a>
+                            </a> </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Camper! <i class="fab fa-angular fa-fw"></i></h3>
+                            <p>Camper! is a website for tourists (local and foreign) to browse for suitable campsites.I got the idea to make it when following a <a href="https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview" target="_blank">Web Developer bootcamp course on Udemy.</a>
+                                It's a <a href="https://yelpcamp-demo.herokuapp.com/campgrounds" target="_blank">Yelpcamp</a> clone made with Angular 5.</p>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>SpeakLife <i class="fab fa-wordpress fa-fw"></i></h3>
+                            <p>A very simple website made with Wordpress.</p>
+                        </div>
+                        <div class="col-md-6 project-visual">
+                            <div class="project-mockup"> <img src="img/SL-mockup.png" alt=""> </div>
+                            <div class="launch-button"> <a href="#" target="_blank">
+                                <a href="http://speaklife.co.ke/" target="_blank" class="btn btn-info btn-round box-shadow--4dp">Launch</a>
+                            </a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 project-visual">
+                            <div class="project-mockup"> <img src="img/qwerty.png" alt=""> </div>
+                            <div class="launch-button"> <a href="#" target="_blank">
+                                <a href="http://gentle-wildwood-58466.herokuapp.com/" target="_blank" class="btn btn-info btn-round box-shadow--4dp">Launch</a>
+                            </a> </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>QWERTY <i class="fab fa-js fa-fw"></i></h3>
+                            <p>Need a break from work? Here's a fun game made with Javascript that allows you to make music on your keyboard :)</p>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+    </div>
+<footer class="footer section-dark">
+    <div class="container">
+        <div class="row">
+            <div class="credits mx-auto">
+                    <span class="copyright">
+                        © <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by Kinyanjui Wangonya
+                    </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--js-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui-1.12.1.custom.min.js"></script>
+<script src="js/paper-kit.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="js/bootstrap-switch.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 </body>
 </html>
