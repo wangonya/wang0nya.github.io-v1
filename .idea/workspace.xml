@@ -17,11 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="96" column="38" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
-              <folding>
-                <element signature="e#2814#2821#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="166">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -51,8 +48,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -128,11 +125,12 @@
       <updated>1526624742946</updated>
       <workItem from="1526624746442" duration="7234000" />
       <workItem from="1526735147639" duration="1287000" />
+      <workItem from="1526748469969" duration="405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8706000" />
+    <option name="totallyTimeSpent" value="9111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -166,11 +164,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="96" column="38" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="51" column="114" selection-start-line="51" selection-start-column="114" selection-end-line="51" selection-end-column="114" />
-          <folding>
-            <element signature="e#2814#2821#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -192,9 +201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="105" column="44" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
-          <folding>
-            <element signature="e#2814#2821#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -205,9 +211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="51" column="114" selection-start-line="51" selection-start-column="114" selection-end-line="51" selection-end-column="114" />
-          <folding>
-            <element signature="e#2814#2821#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -234,11 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="96" column="38" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
-          <folding>
-            <element signature="e#2814#2821#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="166">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="64" />
         </state>
       </provider>
     </entry>
