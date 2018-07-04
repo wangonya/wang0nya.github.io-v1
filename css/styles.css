@@ -69,20 +69,6 @@
 .see-more {
 	padding-top: 30px;
 }
-
-.project {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 60vh;
-	flex-direction: column;
-}
-.project-visual {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
 .launch-button {
 	padding-top: 20px;
 }
@@ -91,4 +77,7 @@
 }
 .box-shadow--16dp {
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2)
+}
+.card {
+	padding: 50px;
 }
