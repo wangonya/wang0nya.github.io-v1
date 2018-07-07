@@ -81,3 +81,12 @@
 .card {
 	padding: 25px;
 }
+.books a:link {
+	color: #5e5e5e;
+}
+.books a:visited {
+	color: #5e5e5e;
+}
+.books a:hover {
+	color: #3ea1ec;
+}

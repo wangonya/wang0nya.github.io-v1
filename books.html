@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinyanjui Wangonya</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/paper-kit.css">
+    <link rel="stylesheet" href="css/nucleo-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="container books">
+    <h3>Read books:</h3>
+    <div class="row" id="read">
+    </div>
+    <h3>Currently Reading:</h3>
+    <div class="row" id="reading">
+    </div>
+</div>
+<footer class="footer section-dark">
+    <div class="container">
+        <div class="row">
+            <div class="credits mx-auto">
+                    <span class="copyright">
+                        © <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by Kinyanjui Wangonya
+                    </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--js-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui-1.12.1.custom.min.js"></script>
+<script src="js/paper-kit.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="js/bootstrap-switch.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+<script>
+    $( "#toggle" ).click(function() {
+        $( "#more" ).toggle();
+    });
+</script>
+</body>
+</html>
