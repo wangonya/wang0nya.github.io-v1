@@ -10,7 +10,7 @@ fetch('https://www.googleapis.com/books/v1/users/110124112182099433343/bookshelv
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="card-plain">
                         <img src=${readBook.volumeInfo.imageLinks.thumbnail} alt="book thumbnail">
-                        <h5><a href=${readBook.volumeInfo.previewLink} target="_blank">${readBook.volumeInfo.title}</a></h5>
+                        <h5><a href=${readBook.volumeInfo.infoLink} target="_blank">${readBook.volumeInfo.title}</a></h5>
                     </div>
                 </div>
                 `;
@@ -26,7 +26,7 @@ fetch('https://www.googleapis.com/books/v1/users/110124112182099433343/bookshelv
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="card-plain">
                         <img src=${book.volumeInfo.imageLinks.thumbnail} alt="book thumbnail">
-                        <h5><a href=${book.volumeInfo.previewLink} target="_blank">${book.volumeInfo.title}</a></h5>
+                        <h5><a href=${book.volumeInfo.infoLink} target="_blank">${book.volumeInfo.title}</a></h5>
                     </div>
                 </div>
                 `;
@@ -42,7 +42,7 @@ fetch('https://www.googleapis.com/books/v1/users/110124112182099433343/bookshelv
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="card-plain">
                         <img src=${bookTo.volumeInfo.imageLinks.thumbnail} alt="book thumbnail">
-                        <h5><a href=${bookTo.volumeInfo.previewLink} target="_blank">${bookTo.volumeInfo.title}</a></h5>
+                        <h5><a href=${bookTo.volumeInfo.infoLink} target="_blank">${bookTo.volumeInfo.title}</a></h5>
                     </div>
                 </div>
                 `;
