@@ -1,63 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kinyanjui Wangonya</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/paper-kit.css">
-    <link rel="stylesheet" href="css/nucleo-icons.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+---
+title: Books
+layout: page
+---
+<style>
+    a:link {
+        text-decoration: none;
+    }
 
-<div class="container">
-    <div class="col-md-12 blockquote" style="padding-top: 30px; padding-bottom: 30px;">
-        <img src="img/Born-Malcolm-Little-Died-Malcolm-X_art.jpg" class="avatar" width="150">
-        <p>“People don't realize how a man's whole life can be changed by one book.”</p>
-        <h6>Malcolm X</h6>
-    </div>
-    <div class="books">
-        <h3>Have Read: <small><sup class="badge badge-pill badge-info" id="readBadge"></sup></small></h3>
-        <div class="row text-center" id="read">
-        </div>
-        <h3>Currently Reading: <small><sup class="badge badge-pill badge-info" id="readingBadge"></sup></small></h3>
-        <div class="row text-center" id="reading">
-        </div>
-        <h3>To Read: <small><sup class="badge badge-pill badge-info" id="toReadBadge"></sup></small></h3>
-        <div class="row text-center" id="toRead">
-        </div>
-    </div>
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+</style>
+<!--fetch books from google books api-->
+<script>
+    fetch('https://www.googleapis.com/books/v1/users/110124112182099433343/bookshelves/4/volumes?key=AIzaSyArwqAV0X3Kbb9loZyvZBKaeifNdfnSdCw&maxResults=40')
+        .then(response => response.json())
+        .then(readBooks => {
+            document.getElementById("readBadge").innerHTML = readBooks.totalItems;
+            for (let readBook of readBooks.items) {
+                document.getElementById("read").innerHTML +=
+                    `
+                    <div class="item">
+                        <h5 style="vertical-align: middle;"><a href=${readBook.volumeInfo.infoLink} target="_blank">${readBook.volumeInfo.title} - ${readBook.volumeInfo.authors}</a></h5>
+                    </div>
+                `;
+            }
+        });
+    fetch('https://www.googleapis.com/books/v1/users/110124112182099433343/bookshelves/3/volumes?key=AIzaSyArwqAV0X3Kbb9loZyvZBKaeifNdfnSdCw')
+        .then(response => response.json())
+        .then(books => {
+            document.getElementById("readingBadge").innerHTML = books.totalItems;
+            for (let book of books.items) {
+                document.getElementById("reading").innerHTML +=
+                    `
+                    <div class="item">
+                    <h5><a href=${book.volumeInfo.infoLink} target="_blank">${book.volumeInfo.title} - ${book.volumeInfo.authors}</a></h5>
+                    </div>
+                `;
+            }
+        });
+    fetch('https://www.googleapis.com/books/v1/users/110124112182099433343/bookshelves/2/volumes?key=AIzaSyArwqAV0X3Kbb9loZyvZBKaeifNdfnSdCw')
+        .then(response => response.json())
+        .then(booksTo => {
+            document.getElementById("toReadBadge").innerHTML = booksTo.totalItems;
+            for (let bookTo of booksTo.items) {
+                document.getElementById("toRead").innerHTML +=
+                    `
+                     <div class="item">
+                     <h5><a href=${bookTo.volumeInfo.infoLink} target="_blank">${bookTo.volumeInfo.title} - ${bookTo.volumeInfo.authors}</a></h5>
+                     </div>
+                `;
+            }
+        });
+</script>
+<div class="blockquote text-center">
+    <img src="/assets/images/Born-Malcolm-Little-Died-Malcolm-X_art.jpg" class="avatar" width="150">
+    <p>“People don't realize how a man's whole life can be changed by one book.”</p>
+    <h6>Malcolm X</h6>
 </div>
-<footer class="footer section-dark">
-    <div class="container">
-        <div class="row">
-            <div class="credits mx-auto">
-                    <span class="copyright">
-                        © <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by Kinyanjui Wangonya
-                    </span>
-            </div>
-        </div>
+<section class="list">
+    <h3>Have Read: <small><sup id="readBadge"></sup></small></h3>
+    <div id="read">
     </div>
-</footer>
-
-<!--js-->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="js/jquery-ui-1.12.1.custom.min.js"></script>
-<script src="js/paper-kit.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-<script src="js/bootstrap-switch.min.js"></script>
-<script src="js/smooth-scroll.min.js"></script>
-<script src="js/main.js"></script>
-<script>
-    var scroll = new SmoothScroll('a[href*="#"]');
-</script>
-<script>
-    $( "#toggle" ).click(function() {
-        $( "#more" ).toggle();
-    });
-</script>
-</body>
-</html>
+    <h3>Currently Reading: <small><sup id="readingBadge"></sup></small></h3>
+    <div id="reading">
+    </div>
+    <h3>To Read: <small><sup id="toReadBadge"></sup></small></h3>
+    <div id="toRead">
+    </div>
+</section>

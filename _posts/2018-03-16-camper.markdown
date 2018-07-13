@@ -1,0 +1,29 @@
+---
+title: "Camper!"
+layout: post
+date: 2018-03-16 22:10
+tag: projects
+image: /assets/images/camper.png
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Camper project"
+category: project
+author: wang0nya
+externalLink: false
+---
+
+Camper! is a website for tourists (local and foreign) to browse for suitable campsites. I got the idea to make it when following a Web Developer bootcamp course on Udemy. It's made with Angular 5.
+
+---
+
+- Angular 5
+- Express
+- NodeJs
+- MongoDb
+- Firebase
+
+---
+
+<a href="https://camperproject.herokuapp.com/" target="_blank">Check it out!</a>
+
