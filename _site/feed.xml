@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-13T13:13:39+03:00</updated><id>http://localhost:4000/</id><title type="html">Kinyanjui Wangonya</title><subtitle>My online space</subtitle><entry><title type="html">Currency Converter</title><link href="http://localhost:4000/currency-converter/" rel="alternate" type="text/html" title="Currency Converter" /><published>2018-06-29T22:10:00+03:00</published><updated>2018-06-29T22:10:00+03:00</updated><id>http://localhost:4000/currency-converter</id><content type="html" xml:base="http://localhost:4000/currency-converter/">&lt;p&gt;Andela Learning Community (ALC) #7DaysofCodeChallenge front-end application that takes advantage of the functionalities FreeCurrencyConverter api provides. The application converts one currency to another while offline or online.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-13T13:15:49+03:00</updated><id>http://localhost:4000/</id><title type="html">Kinyanjui Wangonya</title><subtitle>My online space</subtitle><entry><title type="html">Currency Converter</title><link href="http://localhost:4000/currency-converter/" rel="alternate" type="text/html" title="Currency Converter" /><published>2018-06-29T22:10:00+03:00</published><updated>2018-06-29T22:10:00+03:00</updated><id>http://localhost:4000/currency-converter</id><content type="html" xml:base="http://localhost:4000/currency-converter/">&lt;p&gt;Andela Learning Community (ALC) #7DaysofCodeChallenge front-end application that takes advantage of the functionalities FreeCurrencyConverter api provides. The application converts one currency to another while offline or online.&lt;/p&gt;
 
 &lt;p&gt;PWA fully functional and installable&lt;/p&gt;
 
@@ -159,17 +159,7 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;{ % gist sergiokopplin/91ff4220480727b47224245ee2e9c291 % }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;noscript&gt;&lt;pre&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
-    &amp;lt;title&amp;gt;Just a Test!&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-  &amp;lt;h1&amp;gt;Working!&amp;lt;/h1&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/sergiokopplin/91ff4220480727b47224245ee2e9c291.js&quot;&gt; &lt;/script&gt;
+&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/sergiokopplin/91ff4220480727b47224245ee2e9c291.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
