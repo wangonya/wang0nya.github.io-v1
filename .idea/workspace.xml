@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f322b1-5df0-4b67-94f5-642e5ebf322a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/books/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/books/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/camper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/camper/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/currency-converter/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/currency-converter/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/markdown-common-elements/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/markdown-common-elements/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/markdown-extra-components/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/markdown-extra-components/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/speaklife/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/speaklife/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,6 +56,7 @@
       <find>#web</find>
       <find>id=&quot;web&quot;</find>
       <find>previewLink</find>
+      <find>anal</find>
     </findStrings>
     <replaceStrings>
       <replace>infoLink</replace>
@@ -155,12 +164,12 @@
       <workItem from="1530981991659" duration="7229000" />
       <workItem from="1531028084005" duration="2958000" />
       <workItem from="1531210103193" duration="812000" />
-      <workItem from="1531472890946" duration="2144000" />
+      <workItem from="1531472890946" duration="2276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24799000" />
+    <option name="totallyTimeSpent" value="24931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
