@@ -22,4 +22,7 @@
 @import "components/side-by-side";
 @import "components/social-links";
 @import "components/spoiler";
-@import url('https://fonts.googleapis.com/css?family=Stalemate');
+@font-face {
+  font-family: 'signerica';
+  src: url("/assets/Signerica_Medium.ttf") format("truetype");
+}
