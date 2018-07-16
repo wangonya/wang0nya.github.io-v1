@@ -1,0 +1,36 @@
+---
+layout: page
+title: Merch
+images:
+    - image_path: /assets/images/merch/hood.jpg
+    - image_path: /assets/images/merch/Z.jpg
+    - image_path: /assets/images/merch/kaya.jpg
+    - image_path: /assets/images/merch/x.jpg
+    - image_path: /assets/images/merch/4yeo.jpg
+    - image_path: /assets/images/merch/mickie.jpg
+    - image_path: /assets/images/merch/big.jpg
+---
+<style>
+    .flex-grid {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .col {
+        flex-basis: 50%;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.5s ease;
+    }
+    .col:hover
+    {
+        transform: scale(1.1);
+    }
+</style>
+<div class="flex-grid">
+    {% for image in page.images %}
+    <div class="col"><img src="{{ image.image_path }}" alt="{{ image.title}}" height="270" width="270"/></div>
+    {% endfor %}
+</div>
