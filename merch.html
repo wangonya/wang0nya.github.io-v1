@@ -17,9 +17,9 @@ images:
         overflow: hidden;
     }
     .col {
-        flex-basis: 50%;
-        height: 100%;
-        width: 100%;
+        flex-basis: 33.3333%;
+        height: 270px;
+        width: 270px;
         background-size: cover;
         background-position: center;
         transition: all 0.5s ease;
@@ -28,9 +28,19 @@ images:
     {
         transform: scale(1.1);
     }
+    @media only screen and (max-width: 600px) {
+        .col {
+            flex-basis: 50%;
+            height: 270px;
+            width: 270px;
+            background-size: cover;
+            background-position: center;
+            transition: all 0.5s ease;
+        }
+    }
 </style>
 <div class="flex-grid">
     {% for image in page.images %}
-    <div class="col"><img src="{{ image.image_path }}" alt="{{ image.title}}" height="270" width="270"/></div>
+    <div class="col"><img src="{{ image.image_path }}" alt="{{ image.title}}"/></div>
     {% endfor %}
 </div>
