@@ -3,12 +3,19 @@ layout: page
 title: Merch
 images:
     - image_path: /assets/images/merch/hood.jpg
+      title: hood
     - image_path: /assets/images/merch/Z.jpg
+      title: z
     - image_path: /assets/images/merch/kaya.jpg
+      title: kaya
     - image_path: /assets/images/merch/x.jpg
+      title: x
     - image_path: /assets/images/merch/4yeo.jpg
+      title: 4yeo
     - image_path: /assets/images/merch/mickie.jpg
+      title: mickie
     - image_path: /assets/images/merch/big.jpg
+      title: big
 ---
 <style>
     .flex-grid {
@@ -39,6 +46,7 @@ images:
         }
     }
 </style>
+<img src="https://forthebadge.com/images/badges/makes-people-smile.svg" alt="badge" width="30%">
 <div class="flex-grid">
     {% for image in page.images %}
     <div class="col"><img src="{{ image.image_path }}" alt="{{ image.title}}"/></div>
