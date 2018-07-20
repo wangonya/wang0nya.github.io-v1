@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f322b1-5df0-4b67-94f5-642e5ebf322a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/4yeo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/Z.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/hood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/kaya.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/mickie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/merch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/merch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/4yeo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/Z.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/hood.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/kaya.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/mickie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/x.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/merch.html" beforeDir="false" afterPath="$PROJECT_DIR$/merch.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,8 +19,8 @@
       <file leaf-file-name="merch.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/merch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="603">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -207,12 +190,12 @@
       <workItem from="1531568911203" duration="1273000" />
       <workItem from="1531633168581" duration="752000" />
       <workItem from="1531760989375" duration="4354000" />
-      <workItem from="1532073470382" duration="7801000" />
+      <workItem from="1532073470382" duration="7980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39241000" />
+    <option name="totallyTimeSpent" value="39420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -431,8 +414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/merch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state relative-caret-position="603">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
     </entry>
