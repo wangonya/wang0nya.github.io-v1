@@ -18,6 +18,25 @@ images:
       title: big
 ---
 <style>
+    .col:hover .image {
+        opacity: 0.3;
+    }
+    .col:hover .desc {
+        opacity: 1;
+    }
+    .text {
+        color: black;
+    }
+    .desc {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
     .flex-grid {
         display: flex;
         flex-wrap: wrap;
@@ -45,6 +64,11 @@ images:
 <img src="https://forthebadge.com/images/badges/makes-people-smile.svg" alt="badge" width="30%">
 <div class="flex-grid">
     {% for image in page.images %}
-    <div class="col"><img src="{{ image.image_path }}" alt="{{ image.title}}"/></div>
+    <div class="col">
+        <img class="image" src="{{ image.image_path }}" alt="{{ image.title }}"/>
+        <div class="desc">
+            <div class="text"><h5>{{ image.title }}</h5></div>
+        </div>
+    </div>
     {% endfor %}
 </div>
