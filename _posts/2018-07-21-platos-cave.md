@@ -61,6 +61,6 @@ There was a time when you didn't know what you know today.” -Malcolm X_
 
 <div class="breaker"></div>
 
-[1]: https://palmerasdefruta.files.wordpress.com/2014/11/mother-of-god-meme.jpg
-[2]: https://i2.wp.com/www.learning-mind.com/wp-content/uploads/2016/02/plato-allegory-of-the-cave.jpg?fit=900%2C508&ssl=1
-[3]: http://www.themarketforideas.com/public/store/images/articles/2017/02/3/platos-cave-american-edition-a191.jpg
+[1]: /assets/images/blog/mog.jpg
+[2]: /assets/images/blog/allegory.jpg
+[3]: /assets/images/blog/american-cave.jpg
