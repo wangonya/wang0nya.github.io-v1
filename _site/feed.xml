@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-20T22:11:11+03:00</updated><id>http://localhost:4000/</id><title type="html">Wangonya</title><subtitle>My online space</subtitle><entry><title type="html">Currency Converter</title><link href="http://localhost:4000/currency-converter/" rel="alternate" type="text/html" title="Currency Converter" /><published>2018-06-29T22:10:00+03:00</published><updated>2018-06-29T22:10:00+03:00</updated><id>http://localhost:4000/currency-converter</id><content type="html" xml:base="http://localhost:4000/currency-converter/">&lt;p&gt;Andela Learning Community (ALC) #7DaysofCodeChallenge front-end application that takes advantage of the functionalities FreeCurrencyConverter api provides. The application converts one currency to another while offline or online.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-21T15:10:30+03:00</updated><id>http://localhost:4000/</id><title type="html">Wangonya</title><subtitle>My online space</subtitle><entry><title type="html">Plato’s Cave</title><link href="http://localhost:4000/platos-cave/" rel="alternate" type="text/html" title="Plato's Cave" /><published>2018-07-21T00:00:00+03:00</published><updated>2018-07-21T00:00:00+03:00</updated><id>http://localhost:4000/platos-cave</id><content type="html" xml:base="http://localhost:4000/platos-cave/">&lt;p&gt;Now, I’m not a philosopher, not by a long shot. But I do read widely, and I came across an interesting allegory
+Plato presents in his work &lt;a href=&quot;https://www.goodreads.com/book/show/30289.The_Republic&quot; target=&quot;_blank&quot;&gt;Republic&lt;/a&gt;. 
+It has come to be known as &lt;strong&gt;The allegory of the cave&lt;/strong&gt;, and goes something like this:&lt;/p&gt;
+&lt;div class=&quot;breaker&quot;&gt;&lt;/div&gt;
+&lt;p&gt;There are people (let’s call them prisoners) living in a cave. They have lived there since childhood shackled by the legs and neck and know nothing of the outside world.
+Thus they stay in the same place so that there
+is only one thing for them to look at: whatever they encounter in front of their faces. Because they are
+shackled, they are unable to turn their heads around.&lt;/p&gt;
+
+&lt;p&gt;As you would expect, there are no windows in caves so its dump and dark. There is, however, a fire that casts its glow toward
+them from behind them, being above and at some distance. Between the fire and those who are shackled (i.e., behind their backs) there runs 
+a walkway at a certain height. Occasionally, people pass through this walkway carrying all sorts of things - statues and other carvings 
+made of stone or wood and many other artifacts that people have made. Shadows of these passing people and artifacts are cast upon the wall that these
+prisoners face. Being unable to turn and look behind them, the prisoners perceive these shadows to be the reality and even name and classify them.
+They see nothing else besides the shadows that are continually projected on the wall opposite them by the glow of the fire.&lt;/p&gt;
+
+&lt;p&gt;By chance, one of the prisoners is able to escape and find a way out of the cave into the open. Ever been asleep and had someone suddenly shine a light in
+your eyes? The sunlight hurts his eyes and it takes time to adjust to the brightness. Once he is able to see clearly, he can’t believe it
+&lt;img src=&quot;https://palmerasdefruta.files.wordpress.com/2014/11/mother-of-god-meme.jpg&quot; alt=&quot;Markdowm Image&quot; /&gt;
+He sees that there are actually &lt;strong&gt;&lt;em&gt;real&lt;/em&gt;&lt;/strong&gt; things, and that the shadows are just mere reflections of those things. The shadows appeared much clearer 
+to him because they were all he’d knew since childhood. Before, he had only seen shadows of people, animals, plants and artifacts.
+Now he sees the real objects, and their shadows as cast by the light of the sun.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Illuminated and enlightened, he observes the vastness and sublimeness of the universe. 
+Previously he had been looking merely at phantoms; now he is nearer to the true nature of being.” -Plato&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The prisoner returns to the cave to share his discovery but is no longer used to the darkness and has a hard time seeing the shadows on the wall. The 
+other prisoners tell him that it was a waste of time going to “the upper world”, and that it has made him stupid and blind, since now he isn’t even able
+to comprehend what he knew so well before he left: the shadows. He seems to the others totally foolish, while he in turn is unimpressed by them. 
+They refuse to listen to what he has to say, resist any attempts to get free, and even plot to kill him.
+&lt;img src=&quot;https://i2.wp.com/www.learning-mind.com/wp-content/uploads/2016/02/plato-allegory-of-the-cave.jpg?fit=900%2C508&amp;amp;ssl=1&quot; alt=&quot;Markdowm Image&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;breaker&quot;&gt;&lt;/div&gt;
+&lt;p&gt;Plato says that the object of the allegory is to compare “the effect of education (an enlightening experience) and the lack of it on our nature”.
+It shows that most people are not just comfortable in their ignorance, but hostile to anyone that points it out. All of us have been there. We think 
+we &lt;em&gt;know&lt;/em&gt; what we think we know, but is what we think we know to be reality really reality or are we like the prisoners, because of our environment, upbringing, education, religion, 
+culture – our caves and shackles – just seeing shadows and taking them to be reality since its all we’ve ever seen, and all we &lt;strong&gt;&lt;em&gt;can&lt;/em&gt;&lt;/strong&gt; see?&lt;/p&gt;
+
+&lt;p&gt;How many times do you argue with people trying to convince them of something contrary to what they’ve always knew to be true? Yeah, you’re already picturing 
+that guy or group of people to whom you were speaking to. But remember that time you were part of that group of stiff-necks and could’nt take what that other person was saying?
+You may think you’re out of the cave but you’re just in another cave. The question is, who’s really out of every cave?﻿
+How about always keeping an open mind? :)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Don’t be in a hurry to condemn because he doesn’t do what you do or think as you think or as fast. 
+There was a time when you didn’t know what you know today.” -Malcolm X&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;breaker&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.themarketforideas.com/public/store/images/articles/2017/02/3/platos-cave-american-edition-a191.jpg&quot; alt=&quot;Markdowm Image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;What shapes your reality?&lt;/figcaption&gt;
+
+&lt;div class=&quot;breaker&quot;&gt;&lt;/div&gt;</content><author><name>wang0nya</name></author><category term="blog" /><category term="philosophy" /><category term="life" /><summary type="html">Now, I’m not a philosopher, not by a long shot. But I do read widely, and I came across an interesting allegory Plato presents in his work Republic. It has come to be known as The allegory of the cave, and goes something like this: There are people (let’s call them prisoners) living in a cave. They have lived there since childhood shackled by the legs and neck and know nothing of the outside world. Thus they stay in the same place so that there is only one thing for them to look at: whatever they encounter in front of their faces. Because they are shackled, they are unable to turn their heads around.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/blog/plato.png" /></entry><entry><title type="html">Currency Converter</title><link href="http://localhost:4000/currency-converter/" rel="alternate" type="text/html" title="Currency Converter" /><published>2018-06-29T22:10:00+03:00</published><updated>2018-06-29T22:10:00+03:00</updated><id>http://localhost:4000/currency-converter</id><content type="html" xml:base="http://localhost:4000/currency-converter/">&lt;p&gt;Andela Learning Community (ALC) #7DaysofCodeChallenge front-end application that takes advantage of the functionalities FreeCurrencyConverter api provides. The application converts one currency to another while offline or online.&lt;/p&gt;
 
 &lt;p&gt;PWA fully functional and installable&lt;/p&gt;
 
@@ -159,17 +210,7 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;{ % gist sergiokopplin/91ff4220480727b47224245ee2e9c291 % }&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;noscript&gt;&lt;pre&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
-    &amp;lt;title&amp;gt;Just a Test!&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-  &amp;lt;h1&amp;gt;Working!&amp;lt;/h1&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/sergiokopplin/91ff4220480727b47224245ee2e9c291.js&quot;&gt; &lt;/script&gt;
+&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/sergiokopplin/91ff4220480727b47224245ee2e9c291.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
