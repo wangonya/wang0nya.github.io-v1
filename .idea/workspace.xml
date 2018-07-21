@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4f322b1-5df0-4b67-94f5-642e5ebf322a" name="Default" comment="" />
+    <list default="true" id="c4f322b1-5df0-4b67-94f5-642e5ebf322a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-21-platos-cave.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-21-platos-cave.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/markdown-extra-components/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/markdown-extra-components/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/platos-cave/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/platos-cave/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-21-platos-cave.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="659">
-                <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="79" />
+              <first_editor relative-caret-position="389">
+                <caret line="45" column="82" lean-forward="true" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="82" />
               </first_editor>
               <second_editor />
             </state>
@@ -144,6 +150,24 @@
               <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -198,12 +222,12 @@
       <workItem from="1531633168581" duration="752000" />
       <workItem from="1531760989375" duration="4354000" />
       <workItem from="1532073470382" duration="8348000" />
-      <workItem from="1532161201905" duration="8616000" />
+      <workItem from="1532161201905" duration="9128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48404000" />
+    <option name="totallyTimeSpent" value="48916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -458,8 +482,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-21-platos-cave.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="659">
-            <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="79" />
+          <first_editor relative-caret-position="389">
+            <caret line="45" column="82" lean-forward="true" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="82" />
           </first_editor>
           <second_editor />
         </state>
