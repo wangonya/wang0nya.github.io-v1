@@ -45,5 +45,6 @@ layout: page
 {% endif %}
 
 {% if site.disqus.categories contains page.category %}
+    {% include subscribe.html %}
     {% include disqus.html %}
 {% endif %}
