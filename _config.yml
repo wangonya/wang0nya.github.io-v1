@@ -35,9 +35,9 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: wang0nya
+#twitter: wang0nya
 # google: mygoogle
-instagram: wang0nya
+#instagram: wang0nya
 # pinterest: mypinterest
 linkedin: kinyanjui-wangonya-711a68122
 # youtube: myyoutube
@@ -59,7 +59,7 @@ authors:
         bio: Web Developer. Photograper. Bibliophile.
         external-image: false
         picture: assets/images/me.jpg
-        twitter: wang0nya
+#        twitter: wang0nya
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
