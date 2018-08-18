@@ -21,7 +21,8 @@ a:active {
 </style>
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-I enjoy developing web and mobile applications (focus on front-end), capturing moments, and reading. <a href="/books">(See my reading list for this year)</a>
+I enjoy developing web and mobile applications (focus on front-end), <a href="https://500px.com/wangonya" target="_blank">capturing moments,</a> 
+and reading. <a href="/books">(See my reading list for this year)</a>
 
 I also (occasionally) write about stuff I've read/experienced (or just anything really) on my <a href="/blog">blog</a>.
 
