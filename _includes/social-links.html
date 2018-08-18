@@ -29,12 +29,6 @@
         </a>
     {% endif %}
 
-    {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
-            <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
-        </a>
-    {% endif %}
-
     {% if site.youtube %}
         <a class="link" data-title="youtube.com/{{ site.youtube }}" href="http://youtube.com/{{ site.youtube }}" target="_blank">
             <svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
@@ -99,6 +93,18 @@
         <a class="link" data-title="lanyrd.com/{{ site.lanyrd }}" href="https://lanyrd.com/{{ site.lanyrd }}" target="_blank">
             <svg class="icon icon-microphone"><use xlink:href="#icon-microphone"></use></svg>
         </a>
+    {% endif %}
+
+    {% if site.500px %}
+    <a class="link" data-title="500px.com/{{ site.500px }}" href="https://500px.com/{{ site.500px }}" target="_blank">
+        <svg aria-hidden="true" data-prefix="fab" data-icon="500px" class="icon icon-500px svg-inline--fa fa-500px fa-w-14" role="img"><use xlink:href="#icon-500px"></use></svg>
+    </a>
+    {% endif %}
+    
+    {% if site.linkedin %}
+    <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+        <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+    </a>
     {% endif %}
 
     {% if site.email %}
