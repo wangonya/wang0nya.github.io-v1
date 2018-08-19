@@ -13,7 +13,7 @@ description: Plato's allegory of the cave
 ---
 
 Now, I'm not a philosopher, not by a long shot. But I do read widely, and I came across an interesting allegory
-Plato presents in his work <a href="https://www.goodreads.com/book/show/30289.The_Republic" target="_blank">Republic</a>. 
+Plato presents in his work <a href="https://www.goodreads.com/book/show/30289.The_Republic" target="_blank" class="evidence">Republic</a>. 
 It has come to be known as **The allegory of the cave**, and goes something like this:
 <div class="breaker"></div>
 There are people (let's call them prisoners) living in a cave. They have lived there since childhood shackled by the legs and neck and know nothing of the outside world.

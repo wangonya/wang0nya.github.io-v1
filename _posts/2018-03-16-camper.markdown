@@ -25,5 +25,5 @@ Camper! is a website for tourists (local and foreign) to browse for suitable cam
 
 ---
 
-<a href="https://camperproject.herokuapp.com/" target="_blank">Check it out!</a>
+<a href="https://camperproject.herokuapp.com/" target="_blank" class="evidence">Check it out!</a>
 

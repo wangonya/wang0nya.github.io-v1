@@ -40,8 +40,8 @@
       <file leaf-file-name="icons.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/icons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="266">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -49,8 +49,8 @@
       <file leaf-file-name="social-links.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/social-links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+            <state relative-caret-position="453">
+              <caret line="105" column="130" selection-start-line="105" selection-start-column="130" selection-end-line="105" selection-end-column="130" />
             </state>
           </provider>
         </entry>
@@ -265,12 +265,12 @@
       <workItem from="1534525892899" duration="525000" />
       <workItem from="1534527705579" duration="326000" />
       <workItem from="1534599055622" duration="2953000" />
-      <workItem from="1534660793239" duration="1004000" />
+      <workItem from="1534660793239" duration="1201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69060000" />
+    <option name="totallyTimeSpent" value="69257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -580,15 +580,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/social-links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+        <state relative-caret-position="453">
+          <caret line="105" column="130" selection-start-line="105" selection-start-column="130" selection-end-line="105" selection-end-column="130" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/icons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="266">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

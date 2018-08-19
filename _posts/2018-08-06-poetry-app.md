@@ -26,5 +26,5 @@ A progressive web app utilising PoetryDb Api to explore poetry.
 
 ---
 
-<a href="https://wang0nya.github.io/poetry/" target="_blank">Check it out!</a>
+<a href="https://wang0nya.github.io/poetry/" target="_blank" class="evidence">Check it out!</a>
 
