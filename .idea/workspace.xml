@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f322b1-5df0-4b67-94f5-642e5ebf322a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/social-links.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/social-links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/books/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/books/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/c-n-c/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/c-n-c/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/camper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/camper/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/currency-converter/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/currency-converter/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/fear/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/fear/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/merch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/merch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/platos-cave/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/platos-cave/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/poetry-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/poetry-app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/speaklife/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/speaklife/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,20 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icons.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="icons.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/icons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+            <state relative-caret-position="648">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="social-links.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="social-links.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/social-links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="104" column="124" selection-start-line="104" selection-start-column="124" selection-end-line="104" selection-end-column="124" />
+            <state relative-caret-position="618">
+              <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -140,10 +121,10 @@
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_includes/style.scss" />
         <option value="$PROJECT_DIR$/books.html" />
-        <option value="$PROJECT_DIR$/_includes/icons.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/about.md" />
         <option value="$PROJECT_DIR$/_includes/social-links.html" />
+        <option value="$PROJECT_DIR$/_includes/icons.html" />
       </list>
     </option>
   </component>
@@ -284,12 +265,12 @@
       <workItem from="1534525892899" duration="525000" />
       <workItem from="1534527705579" duration="326000" />
       <workItem from="1534599055622" duration="2953000" />
-      <workItem from="1534660793239" duration="734000" />
+      <workItem from="1534660793239" duration="1004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68790000" />
+    <option name="totallyTimeSpent" value="69060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -597,17 +578,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/icons.html">
+    <entry file="file://$PROJECT_DIR$/_includes/social-links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+        <state relative-caret-position="618">
+          <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/social-links.html">
+    <entry file="file://$PROJECT_DIR$/_includes/icons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="104" column="124" selection-start-line="104" selection-start-column="124" selection-end-line="104" selection-end-column="124" />
+        <state relative-caret-position="648">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
