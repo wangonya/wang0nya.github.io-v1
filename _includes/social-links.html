@@ -48,7 +48,7 @@
     {% endif %}
 
     {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
+        <a class="link" data-title="my projects on github" href="https://github.com/{{ site.github }}" target="_blank">
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     {% endif %}
@@ -96,19 +96,25 @@
     {% endif %}
 
     {% if site.500px %}
-    <a class="link" data-title="500px.com/{{ site.500px }}" href="https://500px.com/{{ site.500px }}" target="_blank">
+    <a class="link" data-title="my photography" href="https://500px.com/{{ site.500px }}" target="_blank">
         <svg aria-hidden="true" data-prefix="fab" data-icon="500px" class="icon icon-500px svg-inline--fa fa-500px fa-w-14" role="img"><use xlink:href="#icon-500px"></use></svg>
     </a>
     {% endif %}
 
+    {% if site.goodreads %}
+    <a class="link" data-title="my books on goodreads" href="https://www.goodreads.com/review/list/{{ site.goodreads }}" target="_blank">
+        <svg aria-hidden="true" data-prefix="fab" data-icon="goodreads" class="icon icon-goodreads svg-inline--fa fa-goodreads fa-w-14" role="img"><use xlink:href="#icon-goodreads"></use></svg>
+    </a>
+    {% endif %}
+
     {% if site.linkedin %}
-    <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+    <a class="link" data-title="connect with me on linkedin" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
         <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
     </a>
     {% endif %}
 
     {% if site.email %}
-        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
+        <a class="link" data-title="hit my inbox" href="mailto:{{ site.email }}">
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}

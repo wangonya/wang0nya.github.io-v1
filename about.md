@@ -22,7 +22,7 @@ a:active {
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 I enjoy developing web and mobile applications (focus on front-end), <a href="https://500px.com/wangonya" target="_blank" class="evidence">capturing moments,</a> 
-and reading. <a href="https://www.goodreads.com/review/list/85584300-kinyanjui-wangonya" class="evidence" target="_blank">(See my goodreads)</a>
+and <a href="https://www.goodreads.com/review/list/85584300-kinyanjui-wangonya" class="evidence" target="_blank">reading.</a>
 
 I also (occasionally) write about stuff I've read/experienced (or just anything really) on my <a href="/blog" class="evidence">blog</a>.
 
