@@ -95,6 +95,12 @@
         </a>
     {% endif %}
 
+    {% if site.dev %}
+    <a class="link" data-title="my dev.to profile" href="https://dev.to/{{ site.dev }}" target="_blank">
+        <svg class="icon icon-dev"><use xlink:href="#icon-dev"></use></svg>
+    </a>
+    {% endif %}
+
     {% if site.500px %}
     <a class="link" data-title="my photography" href="https://500px.com/{{ site.500px }}" target="_blank">
         <svg aria-hidden="true" data-prefix="fab" data-icon="500px" class="icon icon-500px svg-inline--fa fa-500px fa-w-14" role="img"><use xlink:href="#icon-500px"></use></svg>
