@@ -28,4 +28,4 @@ I also (occasionally) write about stuff I've read/experienced (or just anything 
 
 Other interests include art, poetry and music.
 
-<a href="https://drive.google.com/file/d/1E8-w9lOBE8Ef4mACMdcHb0XUFuHT3JKa/view?usp=sharing" target="_blank" class="evidence">Get my CV</a>
+#### I'm looking for work! :) <a href="https://drive.google.com/file/d/1E8-w9lOBE8Ef4mACMdcHb0XUFuHT3JKa/view?usp=sharing" target="_blank" class="evidence"> Here's my CV </a>
