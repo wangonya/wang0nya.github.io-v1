@@ -27,5 +27,5 @@ PWA fully functional and installable
 
 ---
 
-<a href="https://wang0nya.github.io/Currency-Converter/" target="_blank" class="evidence">Check it out!</a>
+<a href="https://wang0nya.github.io/Currency-Converter/" target="_blank">Check it out!</a>
 

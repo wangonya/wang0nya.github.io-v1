@@ -21,5 +21,5 @@ A very simple website made with Wordpress.
 
 ---
 
-<a href="http://speaklife.co.ke/" target="_blank" class="evidence">Check it out!</a>
+<a href="http://speaklife.co.ke/" target="_blank">Check it out!</a>
 
