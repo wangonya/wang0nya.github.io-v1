@@ -3,147 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="c4f322b1-5df0-4b67-94f5-642e5ebf322a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-03-16-camper.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-03-16-camper.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-15-c-n-c.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-15-c-n-c.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-30-fear.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-30-fear.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/aec61c0823ddaf4165b1c8249984fbae164a64f8/home-blog-projects.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/aec61c0823ddaf4165b1c8249984fbae164a64f8/home-blog-projects.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/aec61c0823ddaf4165b1c8249984fbae164a64f8/tags.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/aec61c0823ddaf4165b1c8249984fbae164a64f8/tags.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/d95a233eccd6b1ebfc9211606e3938463d3720f0/general.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/d95a233eccd6b1ebfc9211606e3938463d3720f0/general.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/base/general.sass" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/base/general.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/pages/home-blog-projects.sass" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/pages/home-blog-projects.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/pages/tags.sass" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/pages/tags.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/Born-Malcolm-Little-Died-Malcolm-X_art.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/0mfj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/4mh6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/6a7t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/74h2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/78ou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/8x19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/9g3s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/angular2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/bgmh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/bo71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/bower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/caffeine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/coding-horror.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/creative-commons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/dmxl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/emoji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/freedom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/g5kq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/geek-nerd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/hacker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/handlebars-js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/html5-css3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/hyc7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/javascript.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/jekyll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/jetx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/kavq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/linux.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/love.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/m539.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/ml9i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/na8h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/nasa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/nodejs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/nzyb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/open-source.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/python.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/q029.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/qgei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/react-js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/reddit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/ruby.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/social-media.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/software.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/sysadmin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/t6xh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/tma1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/tv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/typescript.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/um0y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/uxkb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/ve7i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/vuejs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/women-in-tech.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/xewj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/y7if.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/merch/yeoman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/books/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/c-n-c/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/c-n-c/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/camper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/camper/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/currency-converter/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/currency-converter/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/fear/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/fear/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/merch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/platos-cave/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/platos-cave/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/poetry-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/poetry-app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/speaklife/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/speaklife/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Born-Malcolm-Little-Died-Malcolm-X_art.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/0mfj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/4mh6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/6a7t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/74h2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/78ou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/8x19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/9g3s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/angular2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/bgmh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/bo71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/bower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/caffeine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/coding-horror.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/creative-commons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/dmxl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/emoji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/freedom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/g5kq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/geek-nerd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/hacker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/handlebars-js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/html5-css3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/hyc7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/javascript.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/jekyll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/jetx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/kavq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/linux.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/love.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/m539.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/ml9i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/na8h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/nasa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/nodejs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/nzyb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/open-source.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/python.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/q029.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/qgei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/react-js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/reddit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/ruby.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/social-media.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/software.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/sysadmin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/t6xh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/tma1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/tv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/typescript.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/um0y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/uxkb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/ve7i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/vuejs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/women-in-tech.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/xewj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/y7if.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/merch/yeoman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/books.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merch.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -156,122 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="450">
-                <caret line="30" column="138" selection-start-line="30" selection-start-column="138" selection-end-line="30" selection-end-column="138" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/base/general.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/base/variables.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-01-26-speaklife.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="345">
-                <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-03-16-camper.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-03-16-camper.markdown">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="405">
-                <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-06-29-currency-converter.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="435">
-                <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-07-15-c-n-c.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-c-n-c.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="375">
-                <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-07-21-platos-cave.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-07-21-platos-cave.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="-76">
-                <caret line="15" column="124" selection-start-line="15" selection-start-column="124" selection-end-line="15" selection-end-column="124" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-07-30-fear.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-07-30-fear.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="94" selection-start-line="22" selection-start-column="94" selection-end-line="22" selection-end-column="94" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-08-06-poetry-app.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="420">
-                <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -326,18 +90,20 @@
         <option value="$PROJECT_DIR$/_includes/style.scss" />
         <option value="$PROJECT_DIR$/books.html" />
         <option value="$PROJECT_DIR$/_posts/2018-07-21-platos-cave.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/icons.html" />
         <option value="$PROJECT_DIR$/_includes/social-links.html" />
         <option value="$PROJECT_DIR$/_sass/base/variables.sass" />
         <option value="$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown" />
-        <option value="$PROJECT_DIR$/_sass/base/general.sass" />
         <option value="$PROJECT_DIR$/_posts/2018-03-16-camper.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-07-15-c-n-c.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-30-fear.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/about.md" />
+        <option value="$PROJECT_DIR$/_sass/base/general.sass" />
+        <option value="$PROJECT_DIR$/_sass/pages/home-blog-projects.sass" />
+        <option value="$PROJECT_DIR$/_sass/pages/tags.sass" />
       </list>
     </option>
   </component>
@@ -377,7 +143,35 @@
             <path>
               <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -453,16 +247,15 @@
       <workItem from="1534923591792" duration="541000" />
       <workItem from="1534942360129" duration="558000" />
       <workItem from="1534954448787" duration="141000" />
-      <workItem from="1535016250194" duration="2285000" />
+      <workItem from="1535016250194" duration="3727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73991000" />
+    <option name="totallyTimeSpent" value="75433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -490,13 +283,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="105" column="44" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -591,22 +377,12 @@
     <entry file="file://$PROJECT_DIR$/_sass/components/spoiler.sass">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/components/others.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/components/related.sass">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/components/social-links.sass">
       <provider selected="true" editor-type-id="text-editor" />
@@ -646,63 +422,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/helpers.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/syntax.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2427" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config-dev.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/components/nav.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/pages/home-blog-projects.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/pages/post.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/pages/page.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/general.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -774,13 +495,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="450">
-            <caret line="30" column="138" selection-start-line="30" selection-start-column="138" selection-end-line="30" selection-end-column="138" />
+          <first_editor relative-caret-position="60">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/pages/tags.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/pages/home-blog-projects.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/components/related.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/general.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/components/others.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/components/nav.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/pages/page.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/pages/post.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/helpers.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5592" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/syntax.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2427" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
