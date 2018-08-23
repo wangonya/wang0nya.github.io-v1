@@ -12,4 +12,4 @@ and <a href="https://www.goodreads.com/wangonya" target="_blank">reading</a>. I 
 
 Other interests include art, poetry and music.
 
-**Oh, and I'm looking for work! :) <a href="https://drive.google.com/file/d/1E8-w9lOBE8Ef4mACMdcHb0XUFuHT3JKa/view?usp=sharing" target="_blank"> Here's my CV </a>**
+**Oh, and I'm looking for work! :) <a href="https://drive.google.com/file/d/1bffzK6MLmJLJfFOkwHr1Ds-H14ZV0Kky/view?usp=sharing" target="_blank"> Here's my CV </a>**
