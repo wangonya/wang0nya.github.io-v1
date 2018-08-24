@@ -1,7 +1,6 @@
 ---
 title: "Currency Converter"
 date: 2018-06-29 22:10
-tag: projects
 image: /assets/images/projects/cc.png
 headerImage: true
 projects: true
