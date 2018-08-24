@@ -2,40 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f322b1-5df0-4b67-94f5-642e5ebf322a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/_sass/pages/projects.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/blog-post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/disqus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/read-time.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/related.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/subscribe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-03-16-camper.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-15-c-n-c.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-21-platos-cave.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-30-fear.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-24-perspective.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/disqus.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/pagination.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pages/tags.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/pages/tags.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/c-n-c/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/camper/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/currency-converter/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/fear/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/SL-mockup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/camper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/cars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/jekyll-logo-light-solid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/markdown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/poetry.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/perspective/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/poetry-app/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/speaklife/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/CC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/SL-mockup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/camper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/jekyll-logo-light-solid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/markdown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/poetry.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,14 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="166" selection-start-line="10" selection-start-column="166" selection-end-line="10" selection-end-column="166" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="projects.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/pages/projects.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -64,26 +50,32 @@
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_includes/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+      <file leaf-file-name="2018-01-26-speaklife.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+      <file leaf-file-name="2018-08-06-poetry-app.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -141,14 +133,9 @@
         <option value="$PROJECT_DIR$/books.html" />
         <option value="$PROJECT_DIR$/_includes/icons.html" />
         <option value="$PROJECT_DIR$/_sass/base/variables.sass" />
-        <option value="$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2018-03-16-camper.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-07-15-c-n-c.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-30-fear.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md" />
         <option value="$PROJECT_DIR$/_sass/base/general.sass" />
-        <option value="$PROJECT_DIR$/_sass/pages/home-blog-projects.sass" />
         <option value="$PROJECT_DIR$/_sass/pages/tags.sass" />
         <option value="$PROJECT_DIR$/_posts/2018-07-21-platos-cave.md" />
         <option value="$PROJECT_DIR$/_includes/social-links.html" />
@@ -157,8 +144,15 @@
         <option value="$PROJECT_DIR$/blog/index.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/about.md" />
-        <option value="$PROJECT_DIR$/projects.html" />
+        <option value="$PROJECT_DIR$/_posts/2016-07-21-checking.markdown" />
+        <option value="$PROJECT_DIR$/_sass/pages/home-blog-projects.sass" />
         <option value="$PROJECT_DIR$/_includes/style.scss" />
+        <option value="$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown" />
+        <option value="$PROJECT_DIR$/_sass/pages/projects.sass" />
+        <option value="$PROJECT_DIR$/projects.html" />
+        <option value="$PROJECT_DIR$/_posts/2018-03-16-camper.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md" />
       </list>
     </option>
   </component>
@@ -198,7 +192,7 @@
             <path>
               <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -210,12 +204,6 @@
               <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_sass" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wang0nya.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_sass" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wang0nya.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -297,25 +285,25 @@
       <workItem from="1534923591792" duration="541000" />
       <workItem from="1534942360129" duration="558000" />
       <workItem from="1534954448787" duration="141000" />
-      <workItem from="1535016250194" duration="13778000" />
+      <workItem from="1535016250194" duration="19488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85484000" />
+    <option name="totallyTimeSpent" value="91194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,20 +322,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/_includes/analytics-google.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/compress.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-02-24-markdown-extra-components.markdown" />
     <entry file="file://$PROJECT_DIR$/_posts/2016-02-24-markdown-common-elements.markdown" />
     <entry file="file://$PROJECT_DIR$/_includes/read-time.html">
@@ -383,16 +357,6 @@
     <entry file="file://$PROJECT_DIR$/_config-dev.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-15-c-n-c.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -413,27 +377,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="420">
-            <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/pages/tags.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/pages/home-blog-projects.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -444,32 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/pages/page.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/pages/post.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/helpers.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/syntax.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2427" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -489,23 +410,6 @@
     <entry file="file://$PROJECT_DIR$/robots.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/general.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-03-16-camper.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="405">
-            <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FAQ.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -518,16 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="110" column="86" selection-start-line="110" selection-start-column="86" selection-end-line="110" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -630,17 +524,125 @@
     <entry file="file://$PROJECT_DIR$/tags.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.html">
+    <entry file="file://$PROJECT_DIR$/_includes/analytics-piwik.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-India-based-Neutrino-Observatory.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-21-checking.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/pages/home-blog-projects.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="273">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/general.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/pages/page.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/pages/post.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/helpers.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5592" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/syntax.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2427" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-16-camper.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/pages/projects.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
