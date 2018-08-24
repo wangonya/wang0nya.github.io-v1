@@ -31,7 +31,7 @@ analytics-google: 'UA-122307986-1'
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: wang0nya # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
@@ -39,7 +39,7 @@ disqus:
 # google: mygoogle
 #instagram: wang0nya
 # pinterest: mypinterest
-linkedin: wang0nya
+#linkedin: wang0nya
 # youtube: myyoutube
 # spotify: myspotify
 github: wang0nya
@@ -52,8 +52,8 @@ github: wang0nya
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: kwangonya@gmail.com
-500px: wangonya
-goodreads: wangonya
+#500px: wangonya
+#goodreads: wangonya
 dev: wangonya
 
 authors:
@@ -70,27 +70,27 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-paginate: 5
-paginate_path: "blog/:num/"
+#paginate: 5
+#paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+#read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+#show-tags: true
 
 # related posts inside a post?
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+#post-advance-links: [blog]
 
 # show author block at the end of a post ?
 show-author: true
