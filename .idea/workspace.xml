@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f322b1-5df0-4b67-94f5-642e5ebf322a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/d95a233eccd6b1ebfc9211606e3938463d3720f0/variables.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/d95a233eccd6b1ebfc9211606e3938463d3720f0/variables.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/base/variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/Rhesmanisa.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/screen-shot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Rhesmanisa.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/screen-shot.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,7 +38,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/base/variables.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -127,10 +126,10 @@
         <option value="$PROJECT_DIR$/_posts/2018-08-10-cars&amp;chrome.md" />
         <option value="$PROJECT_DIR$/_includes/icons.html" />
         <option value="$PROJECT_DIR$/_includes/social-links.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/style.scss" />
         <option value="$PROJECT_DIR$/_sass/base/variables.sass" />
         <option value="$PROJECT_DIR$/about.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -282,12 +281,12 @@
       <workItem from="1535218370471" duration="408000" />
       <workItem from="1535344110890" duration="302000" />
       <workItem from="1535394626543" duration="162000" />
-      <workItem from="1535395743606" duration="3986000" />
+      <workItem from="1535395743606" duration="4186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98131000" />
+    <option name="totallyTimeSpent" value="98331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -497,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/social-links.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -551,6 +543,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
