@@ -16,7 +16,11 @@
 @import "components/others";
 @import "components/side-by-side";
 @import "components/social-links";
+
+@import "icons/fontawesome.scss";
+@import "icons/brands.scss";
+
 @font-face {
   font-family: 'Rhesmanisa';
-  src: url("/assets/Rhesmanisa.otf") format("truetype");
+  src: url("/assets/webfonts/Rhesmanisa.otf") format("truetype");
 }
