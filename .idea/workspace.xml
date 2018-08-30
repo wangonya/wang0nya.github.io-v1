@@ -2,198 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f322b1-5df0-4b67-94f5-642e5ebf322a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FAQ.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/analytics-google.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/favicon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/social-links.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/compress.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-01-26-speaklife.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-03-16-camper.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-29-currency-converter.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-06-poetry-app.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-10-cars&amp;chrome.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/general.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/general.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/helpers.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/syntax.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/variables.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/base/variables.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/footer.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/header.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/nav.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/others.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/side-by-side.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/social-links.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_shims.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/brands.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/brands.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/brands.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/fontawesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/fontawesome.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/fontawesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/regular.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/regular.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/regular.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/solid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/solid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/solid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/v4-shims.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/v4-shims.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/icons/v4-shims.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pages/home-blog-projects.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pages/home-blog-projects.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pages/page.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pages/post.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pages/projects.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pages/projects.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pages/projects.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/FAQ.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/Rakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/blog/allegory.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/blog/american-cave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/blog/fear.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/blog/mog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/blog/perspective.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/blog/plato.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/apple-touch-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/apple-touch-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/apple-touch-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/apple-touch-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/apple-touch-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/apple-touch-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/apple-touch-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/apple-touch-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/favicon-128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/favicon-196x196.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/mstile-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/mstile-310x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/mstile-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/favicon/mstile-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/me.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/projects/cc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/projects/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/projects/poetry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/projects/sl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/projects/tent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/Rhesmanisa.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/camper/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/cars&amp;chrome/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/currency-converter/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/poetry-app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/speaklife/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/travis.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/allegory.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/american-cave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/fear.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/mog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/perspective.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/blog/plato.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-196x196.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-310x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/me.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/cc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/poetry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/sl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/tent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/Rhesmanisa.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travis.sh" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -210,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+            <state relative-caret-position="-59">
+              <caret line="244" column="50" selection-start-line="244" selection-start-column="50" selection-end-line="244" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#8859#8865#0" expanded="true" />
@@ -446,12 +255,12 @@
       <workItem from="1535394626543" duration="162000" />
       <workItem from="1535395743606" duration="4186000" />
       <workItem from="1535459879043" duration="18000" />
-      <workItem from="1535569334829" duration="27631000" />
+      <workItem from="1535569334829" duration="27817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125981000" />
+    <option name="totallyTimeSpent" value="126167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -577,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        <state relative-caret-position="-59">
+          <caret line="244" column="50" selection-start-line="244" selection-start-column="50" selection-end-line="244" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#8859#8865#0" expanded="true" />
