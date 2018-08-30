@@ -139,7 +139,9 @@ textarea {
     transform: translateY(0);
 }
 
-
+.page-header {
+    background-color: #DFDBE5;
+}
 
 
 
