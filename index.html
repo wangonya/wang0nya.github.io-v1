@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/material-kit.min.css">
-
+  <!--reveal on scroll-->
+  <link rel="stylesheet" href="css/animate.css">
   <!--lazy load images below the fold-->
   <script src="js/vendor/lazysizes.min.js" async=""></script>
 </head>
@@ -81,7 +82,7 @@
             </div>
           </div>
         </div>
-        <div class="description">
+        <div class="description wow fadeInUp">
           <p class="h5">I enjoy <a href="https://github.com/wang0nya" target="_blank" rel="noopener">developing web and mobile applications</a>, <a href="https://500px.com/wangonya" target="_blank" rel="noopener">capturing moments</a>,
             and <a href="https://www.goodreads.com/wangonya" target="_blank" rel="noopener">reading</a>. I also publish articles on <a href="https://dev.to/wangonya" target="_blank" rel="noopener">dev.to</a>. </p>
           <p class="h5">Other interests include art, poetry and music.</p>
@@ -99,7 +100,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="info">
-              <div class="img__wrap">
+              <div class="img__wrap wow fadeInUp">
                 <picture>
                   <source type="image/webp" data-srcset="img/projects/cnc.webp" class="lazyload no-src">
                   <img class="img__img img-raised img-fluid lazyload no-src" data-src="img/projects/cnc.png" alt="cars&chrome" />
@@ -121,7 +122,7 @@
           </div>
           <div class="col-md-4">
             <div class="info">
-              <div class="img__wrap">
+              <div class="img__wrap wow fadeInUp">
                 <picture>
                   <source type="image/webp" data-srcset="img/projects/poetry.webp" class="lazyload no-src">
                   <img class="img__img img-raised img-fluid lazyload no-src" data-src="img/projects/poetry.png" alt="poetry"/>
@@ -143,7 +144,7 @@
           </div>
           <div class="col-md-4">
             <div class="info">
-              <div class="img__wrap">
+              <div class="img__wrap wow fadeInUp">
                 <picture>
                   <source type="image/webp" data-srcset="img/projects/cc.webp" class="lazyload no-src">
                   <img class="img__img img-raised img-fluid lazyload no-src" data-src="img/projects/cc.png" alt="currency-converter"/>
@@ -168,7 +169,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="info">
-              <div class="img__wrap">
+              <div class="img__wrap wow fadeInUp">
                 <picture>
                   <source type="image/webp" data-srcset="img/projects/camper.webp" class="lazyload no-src">
                   <img class="img__img img-raised img-fluid lazyload no-src" data-src="img/projects/camper.png" alt="camper"/>
@@ -188,7 +189,7 @@
           </div>
           <div class="col-md-4">
             <div class="info">
-              <div class="img__wrap">
+              <div class="img__wrap wow fadeInUp">
                 <picture>
                   <source type="image/webp" data-srcset="img/projects/sl.webp" class="lazyload no-src">
                   <img class="img__img img-raised img-fluid lazyload no-src" data-src="img/projects/sl.png" alt="speak-life"/>
@@ -207,7 +208,7 @@
           </div>
           <div class="col-md-4">
             <div class="info">
-              <div class="img__wrap">
+              <div class="img__wrap wow fadeInUp">
                 <picture>
                   <source type="image/webp" data-srcset="img/projects/qwe.webp" class="lazyload no-src">
                   <img class="img__img img-raised img-fluid lazyload no-src" data-src="img/projects/qwe.jpg" alt="qwerty"/>
@@ -240,26 +241,26 @@
         <div class="row">
           <div class="col-md-4">
             <div class="info">
-              <div class="icon icon-info">
+              <div class="icon icon-info wow jackInTheBox" data-wow-delay="1s">
                 <i class="material-icons">computer</i>
               </div>
-              <h4 class="info-title">Web Development</h4>
+              <h4 class="info-title wow fadeInUp">Web Development</h4>
             </div>
           </div>
           <div class="col-md-4">
             <div class="info">
-              <div class="icon icon-success">
+              <div class="icon icon-success wow jackInTheBox" data-wow-delay="1s">
                 <i class="material-icons">mobile_friendly</i>
               </div>
-              <h4 class="info-title">Hybrid Mobile Apps</h4>
+              <h4 class="info-title wow fadeInUp">Hybrid Mobile Apps</h4>
             </div>
           </div>
           <div class="col-md-4">
             <div class="info">
-              <div class="icon icon-danger">
+              <div class="icon icon-danger wow jackInTheBox" data-wow-delay="1s">
                 <i class="material-icons">camera</i>
               </div>
-              <h4 class="info-title">Photography</h4>
+              <h4 class="info-title wow fadeInUp">Photography</h4>
             </div>
           </div>
         </div>
@@ -292,7 +293,7 @@
             </div>
             <div class="row">
               <div class="col-md-4 ml-auto mr-auto text-center">
-                <input class="btn btn-primary btn-raised" type="submit" value="Send Message" >
+                <input class="btn btn-primary btn-raised wow pulse" type="submit" value="Send Message"  data-wow-delay="2s">
               </div>
             </div>
           </form>
@@ -347,6 +348,10 @@
 <!--smooth scroll-->
   <script>
       var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  <script src="js/vendor/wow.min.js"></script>
+  <script>
+      new WOW().init();
   </script>
 </body>
 
