@@ -19,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="212" column="120" selection-start-line="212" selection-start-column="120" selection-end-line="212" selection-end-column="120" />
+            <state relative-caret-position="2562">
+              <caret line="290" column="99" selection-start-line="290" selection-start-column="99" selection-end-line="290" selection-end-column="99" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -257,12 +257,12 @@
       <workItem from="1535395743606" duration="4186000" />
       <workItem from="1535459879043" duration="18000" />
       <workItem from="1535569334829" duration="28134000" />
-      <workItem from="1535649032176" duration="2649000" />
+      <workItem from="1535649032176" duration="2873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129133000" />
+    <option name="totallyTimeSpent" value="129357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -369,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="212" column="120" selection-start-line="212" selection-start-column="120" selection-end-line="212" selection-end-column="120" />
+        <state relative-caret-position="2562">
+          <caret line="290" column="99" selection-start-line="290" selection-start-column="99" selection-end-line="290" selection-end-column="99" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
