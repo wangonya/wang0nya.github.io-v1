@@ -97,53 +97,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.img__wrap {
-    position: relative;
-}
-
-.img__wrap img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-}
-
-.img__description_layer {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    visibility: hidden;
-    opacity: 0;
-    /*display: flex;*/
-    /*align-items: left;*/
-    /*justify-content: center;*/
-
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
-}
-
-.img__wrap:hover .img__description_layer {
-    visibility: visible;
-    opacity: 1;
-}
-
-.img__description {
-    transition: .2s;
-    transform: translateY(1em);
-    color: white;
-}
-
-.img__wrap:hover .img__description {
-    transform: translateY(0);
-}
-
 .page-header {
     background-color: #DFDBE5;
 }
 
-
+.projects {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 70px 0 30px;
+}
 
 
 
