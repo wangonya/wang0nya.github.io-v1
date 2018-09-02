@@ -10,12 +10,12 @@
 
   <link rel="apple-touch-icon" href="favicon.ico">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link rel="stylesheet" href="css/icomoon/style.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/material-kit.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/now-ui-kit.min.css">
   <!--reveal on scroll-->
   <link rel="stylesheet" href="css/animate.css">
   <!--lazy load images below the fold-->
@@ -27,314 +27,216 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
-    <div class="container">
-      <div class="navbar-translate">
-        <a class="navbar-brand" href="#">
-          <i class="material-icons">home</i> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <div class="wrapper">
+    <div class="page-header clear-filter" filter-color="orange">
+      <div class="page-header-image" data-parallax="true" style="background-image:url('img/hero.svg');">
       </div>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#projects" data-scroll>
-              <i class="material-icons">important_devices</i> Projects
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services" data-scroll>
-              <i class="material-icons">room_service</i> Services
-            </a>
-          </li>
-          <li class="nav-item" data-scroll>
-            <a class="nav-link" href="#section-contacts">
-              <i class="material-icons">mail_outline</i> Let's talk
-            </a>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="photo-container">
+          <picture>
+            <source type="image/webp" srcset="img/me2.webp">
+            <img src="img/me2.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+          </picture>
+        </div>
+        <h3 class="title">Kinyanjui Wangonya</h3>
+        <p class="category">Junior dev</p>
       </div>
     </div>
-  </nav>
-  <div class="page-header header-filter" data-parallax="true" style="background-image: url('img/i-like-food.svg');"></div>
-  <div class="main main-raised text-center">
-    <div class="profile-content">
+    <div class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 ml-auto mr-auto">
-            <div class="profile">
-              <div class="avatar">
-                <picture>
-                  <source type="image/webp" srcset="img/me2.webp">
-                  <img src="img/me2.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
-                </picture>
-              </div>
-              <div class="name">
-                <h3>Kinyanjui Wangonya</h3>
-                <h6>Web Developer</h6>
-                <a href="https://github.com/wang0nya" target="_blank" rel="noopener" class="btn btn-just-icon btn-link">
-                  <span class="icon-github"></span>
-                </a>
-                <a href="https://dev.to/wangonya" target="_blank" rel="noopener" class="btn btn-just-icon btn-link">
-                  <span class="icon-devto"></span>
-                </a>
-                <a href="#section-contacts" class="btn btn-just-icon btn-link">
-                  <span class="icon-envelope"></span>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div class="button-container">
+          <a href="#contact" class="btn btn-gradient btn-round btn-lg">Get in touch</a>
         </div>
+        <h4 class="title">About me</h4>
         <div class="description wow fadeInUp">
           <p class="h5">I enjoy <a href="https://github.com/wang0nya" target="_blank" rel="noopener">developing web and mobile applications</a>, <a href="https://500px.com/wangonya" target="_blank" rel="noopener">capturing moments</a>,
             and <a href="https://www.goodreads.com/wangonya" target="_blank" rel="noopener">reading</a>. I also publish articles on <a href="https://dev.to/wangonya" target="_blank" rel="noopener">dev.to</a>. </p>
           <p class="h5">Other interests include art, poetry and music.</p>
         </div>
-      </div>
-    </div>
-    <div class="section" id="projects">
-      <div class="row">
-        <div class="col-md-8 ml-auto mr-auto">
-          <h2 class="title">Projects</h2>
-          <h5 class="description h5">Below are some personal and client projects I've undertaken. </h5>
-        </div>
-      </div>
-      <div class="container">
-        <div class="projects">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="2s">
-                <picture>
-                  <source type="image/webp" data-srcset="img/projects/webp/cnc.webp" class="img-fluid card-img lazyload no-src">
-                  <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/cnc.jpg" alt="cars&chrome" />
-                </picture>
-                <div class="overlay">
-                  <h2 class="card-title">Cars & Chrome</h2>
-                  <div>
-                    <span class="icon-html5"></span>
-                    <span class="icon-javascript"></span>
-                    <span class="icon-css3"></span>
-                    <span class="icon-php"></span>
+            <h4 class="title">Portfolio</h4>
+            <div class="projects">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="2s">
+                    <picture>
+                      <source type="image/webp" data-srcset="img/projects/webp/cnc.webp" class="img-fluid card-img lazyload no-src">
+                      <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/cnc.jpg" alt="cars&chrome" />
+                    </picture>
+                    <div class="overlay">
+                      <h2 class="card-title">Cars & Chrome</h2>
+                      <div>
+                        <span class="icon-html5"></span>
+                        <span class="icon-javascript"></span>
+                        <span class="icon-css3"></span>
+                        <span class="icon-php"></span>
+                      </div>
+                      <p>Cars & Chrome club demo website</p>
+                      <a href="https://wang0nya.github.io/cars-n-chrome" target="_blank" rel="noopener" class="info">visit site</a>
+                    </div>
                   </div>
-                  <p>Cars & Chrome club demo website</p>
-                  <a href="https://wang0nya.github.io/cars-n-chrome" target="_blank" rel="noopener" class="info">visit site</a>
+                </div>
+                <div class="col-md-6">
+                  <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="1s">
+                    <picture>
+                      <source type="image/webp" data-srcset="img/projects/webp/poetry.webp" class="img-fluid card-img lazyload no-src">
+                      <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/poetry.jpg" alt="cars&chrome" />
+                    </picture>
+                    <div class="overlay">
+                      <h2 class="card-title">Poetry</h2>
+                      <div class="">
+                        <span class="icon-html5"></span>
+                        <span class="icon-javascript"></span>
+                        <span class="icon-css3"></span>
+                        <span class="icon-mobile"></span>
+                      </div>
+                      <p>Simple poetry PWA</p>
+                      <a href="https://wang0nya.github.io/poetry/" target="_blank" rel="noopener" class="info">visit site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="1s">
+                    <picture>
+                      <source type="image/webp" data-srcset="img/projects/webp/cc.webp" class="img-fluid card-img lazyload no-src">
+                      <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/cc.jpg" alt="cars&chrome" />
+                    </picture>
+                    <div class="overlay">
+                      <h2 class="card-title">Currency Converter</h2>
+                      <div class="">
+                        <span class="icon-html5"></span>
+                        <span class="icon-javascript"></span>
+                        <span class="icon-css3"></span>
+                        <span class="icon-database"></span>
+                        <span class="icon-mobile"></span>
+                      </div>
+                      <p class="card-text">Simple currency converter PWA</p>
+                      <a href="https://wang0nya.github.io/Currency-Converter/" target="_blank" rel="noopener" class="info">visit site</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card text-white wow fadeInUp hovereffect" data-wow-delay="2s">
+                    <picture>
+                      <source type="image/webp" data-srcset="img/projects/webp/camper.webp" class="img-fluid card-img lazyload no-src">
+                      <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/camper.jpg" alt="cars&chrome" />
+                    </picture>
+                    <div class="overlay">
+                      <h2 class="card-title">Camper!</h2>
+                      <div class="">
+                        <span class="icon-angular"></span>
+                        <span class="icon-nodejs"></span>
+                        <span class="icon-mongodb"></span>
+                        <span class="icon-firebase"></span>
+                      </div>
+                      <p class="card-text">YelpCamp clone</p>
+                      <a href="https://camperproject.herokuapp.com/" target="_blank" rel="noopener" class="info">visit site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="2s">
+                    <picture>
+                      <source type="image/webp" data-srcset="img/projects/webp/sl.webp" class="img-fluid card-img lazyload no-src">
+                      <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/sl.jpg" alt="cars&chrome" />
+                    </picture>
+                    <div class="overlay">
+                      <h2 class="card-title">SpeakLife</h2>
+                      <div class="">
+                        <span class="icon-wordpress"></span>
+                      </div>
+                      <p class="card-text">Simple Wordpress site</p>
+                      <a class="info" href="http://speaklife.co.ke/" target="_blank" rel="noopener">visit site</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="1s">
+                    <picture>
+                      <source type="image/webp" data-srcset="img/projects/webp/qwe.webp" class="img-fluid card-img lazyload no-src">
+                      <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/qwe.jpg" alt="cars&chrome" />
+                    </picture>
+                    <div class="overlay">
+                      <h2 class="card-title">QWERTY</h2>
+                      <div class="">
+                        <span class="icon-html5"></span>
+                        <span class="icon-javascript"></span>
+                        <span class="icon-css3"></span>
+                      </div>
+                      <p class="card-text">Make some keyboard music!</p>
+                      <a href="https://gentle-wildwood-58466.herokuapp.com/" target="_blank" rel="noopener" class="info">visit site</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="1s">
-                <picture>
-                  <source type="image/webp" data-srcset="img/projects/webp/poetry.webp" class="img-fluid card-img lazyload no-src">
-                  <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/poetry.jpg" alt="cars&chrome" />
-                </picture>
-                <div class="overlay">
-                  <h2 class="card-title">Poetry</h2>
-                  <div class="">
-                    <span class="icon-html5"></span>
-                    <span class="icon-javascript"></span>
-                    <span class="icon-css3"></span>
-                    <span class="icon-mobile"></span>
-                  </div>
-                  <p>Simple poetry PWA</p>
-                  <a href="https://wang0nya.github.io/poetry/" target="_blank" rel="noopener" class="info">visit site</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="1s">
-                <picture>
-                  <source type="image/webp" data-srcset="img/projects/webp/cc.webp" class="img-fluid card-img lazyload no-src">
-                  <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/cc.jpg" alt="cars&chrome" />
-                </picture>
-                <div class="overlay">
-                  <h2 class="card-title">Currency Converter</h2>
-                  <div class="">
-                    <span class="icon-html5"></span>
-                    <span class="icon-javascript"></span>
-                    <span class="icon-css3"></span>
-                    <span class="icon-database"></span>
-                    <span class="icon-mobile"></span>
-                  </div>
-                  <p class="card-text">Simple currency converter PWA</p>
-                  <a href="https://wang0nya.github.io/Currency-Converter/" target="_blank" rel="noopener" class="info">visit site</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card text-white wow fadeInUp hovereffect" data-wow-delay="2s">
-                <picture>
-                  <source type="image/webp" data-srcset="img/projects/webp/camper.webp" class="img-fluid card-img lazyload no-src">
-                  <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/camper.jpg" alt="cars&chrome" />
-                </picture>
-                <div class="overlay">
-                  <h2 class="card-title">Camper!</h2>
-                  <div class="">
-                    <span class="icon-angular"></span>
-                    <span class="icon-nodejs"></span>
-                    <span class="icon-mongodb"></span>
-                    <span class="icon-firebase"></span>
-                  </div>
-                  <p class="card-text">YelpCamp clone</p>
-                  <a href="https://camperproject.herokuapp.com/" target="_blank" rel="noopener" class="info">visit site</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="2s">
-                <picture>
-                  <source type="image/webp" data-srcset="img/projects/webp/sl.webp" class="img-fluid card-img lazyload no-src">
-                  <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/sl.jpg" alt="cars&chrome" />
-                </picture>
-                <div class="overlay">
-                  <h2 class="card-title">SpeakLife</h2>
-                  <div class="">
-                    <span class="icon-wordpress"></span>
-                  </div>
-                  <p class="card-text">Simple Wordpress site</p>
-                  <a class="info" href="http://speaklife.co.ke/" target="_blank" rel="noopener">visit site</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card bg-dark text-white wow fadeInUp hovereffect" data-wow-delay="1s">
-                <picture>
-                  <source type="image/webp" data-srcset="img/projects/webp/qwe.webp" class="img-fluid card-img lazyload no-src">
-                  <img class="card-img img-fluid lazyload no-src" data-src="img/projects/jpg/qwe.jpg" alt="cars&chrome" />
-                </picture>
-                <div class="overlay">
-                  <h2 class="card-title">QWERTY</h2>
-                  <div class="">
-                    <span class="icon-html5"></span>
-                    <span class="icon-javascript"></span>
-                    <span class="icon-css3"></span>
-                  </div>
-                  <p class="card-text">Make some keyboard music!</p>
-                  <a href="https://gentle-wildwood-58466.herokuapp.com/" target="_blank" rel="noopener" class="info">visit site</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container section" id="services">
-      <div class="row">
-        <div class="col-md-8 ml-auto mr-auto">
-          <h2 class="title">What I can do for you</h2>
-          <h5 class="description h5">With a BS degree in Computer Science, I have an understanding of the full lifecycle of a software development project. I also have experience in learning and excelling at new technologies as needed.</h5>
-        </div>
-      </div>
-      <div class="features">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="info">
-              <div class="icon icon-info wow jackInTheBox" data-wow-delay="1s">
-                <i class="material-icons">computer</i>
-              </div>
-              <h4 class="info-title wow fadeInUp">Web Development</h4>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="info">
-              <div class="icon icon-success wow jackInTheBox" data-wow-delay="1s">
-                <i class="material-icons">mobile_friendly</i>
-              </div>
-              <h4 class="info-title wow fadeInUp">Hybrid Mobile Apps</h4>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="info">
-              <div class="icon icon-danger wow jackInTheBox" data-wow-delay="1s">
-                <i class="material-icons">camera</i>
-              </div>
-              <h4 class="info-title wow fadeInUp">Photography</h4>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <!--contact-->
-    <div class="section section-contacts container" id="section-contacts">
-      <div class="row">
-        <div class="col-md-8 ml-auto mr-auto">
-          <h2 class="title">Let's talk</h2>
-          <h4 class="description">Drop me an email and I'll get back to you ASAP</h4>
-          <form class="contact-form text-left" action="https://formspree.io/kwangonya@gmail.com" method="POST">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label class="bmd-label-floating" for="name">Your Name</label>
-                  <input type="text" class="form-control" id="name" name="name">
-                </div>
+    <div class="section section-contact-us text-center" id="contact">
+      <div class="container">
+        <h4 class="title">Get in touch</h4>
+        <p class="description">Drop me a message and I'll get back to you ASAP.</p>
+        <div class="row">
+          <form class="col-lg-6 text-center col-md-8 ml-auto mr-auto" action="https://formspree.io/kwangonya@gmail.com" method="POST">
+            <div class="input-group input-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="now-ui-icons users_circle-08"></i>
+                </span>
               </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <label class="bmd-label-floating" for="email">Your Email</label>
-                  <input type="email" class="form-control" id="email" name="_replyto">
-                </div>
-              </div>
+              <input type="text" class="form-control" placeholder="First Name..." name="name">
             </div>
-            <div class="form-group">
-              <label for="message" class="bmd-label-floating">Your Message</label>
-              <textarea type="text" class="form-control" rows="4" id="message" name="message"></textarea>
-            </div>
-            <div class="row">
-              <div class="col-md-4 ml-auto mr-auto text-center">
-                <input class="btn btn-primary btn-raised wow pulse" type="submit" value="Send Message"  data-wow-delay="2s">
+            <div class="input-group input-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="now-ui-icons ui-1_email-85"></i>
+                </span>
               </div>
+              <input type="text" class="form-control" placeholder="Email..." name="_replyto">
+            </div>
+            <div class="textarea-container">
+              <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..." name="message"></textarea>
+            </div>
+            <div class="send-button">
+              <input class="btn-gradient btn btn-round btn-block btn-lg wow pulse" data-wow-delay="2s" value="Send Message" type="submit">
             </div>
           </form>
         </div>
       </div>
     </div>
-  </div>
-  <footer class="footer footer-default">
-    <div class="container">
-      <nav class="float-left">
-        <ul>
-          <li>
-            <a href="https://github.com/wang0nya" target="_blank" rel="noopener" class="btn btn-just-icon btn-link">
-              <span class="icon-github"></span>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:kwangonya@gmail.com" target="_blank" rel="noopener" class="btn btn-just-icon btn-link">
-              <span class="icon-envelope"></span>
-            </a>
-          </li>
-          <li>
-            <a href="https://dev.to/wangonya" target="_blank" rel="noopener" class="btn btn-just-icon btn-link">
-              <span class="icon-devto"></span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.goodreads.com/wangonya" target="_blank" rel="noopener" class="btn btn-just-icon btn-link">
-              <span class="icon-goodreads"></span>
-            </a>
-          </li>
-          <li>
-            <a href="https://500px.com/wangonya" target="_blank" rel="noopener" class="btn btn-just-icon btn-link">
-              <span class="icon-500px"></span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="copyright float-right">
-        &copy;
-        <script>
-            document.write(new Date().getFullYear())
-        </script> Kinyanjui Wangonya.
+    <footer class="footer footer-default">
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a href="https://github.com/wang0nya" target="_blank" rel="noopener" class="btn btn-icon btn-link btn-lg">
+                <span class="icon-github"></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://dev.to/wangonya" target="_blank" rel="noopener" class="btn btn-icon btn-link btn-lg">
+                <span class="icon-devto"></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.goodreads.com/wangonya" target="_blank" rel="noopener" class="btn btn-icon btn-link btn-lg">
+                <span class="icon-goodreads"></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://500px.com/wangonya" target="_blank" rel="noopener" class="btn btn-icon btn-link btn-lg">
+                <span class="icon-500px"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <!-- Core -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
@@ -344,9 +246,9 @@
   <script src="js/main.js"></script>
   <script src="js/vendor/popper.min.js" type="text/javascript"></script>
   <script src="js/vendor/smooth-scroll.min.js" type="text/javascript"></script>
-  <script src="js/vendor/bootstrap-material-design.min.js" type="text/javascript"></script>
-  <!-- Control Center for Material Kit -->
-  <script src="js/vendor/material-kit.min.js?v=2.0.4" type="text/javascript"></script>
+  <script src="js/vendor/bootstrap.min.js" type="text/javascript"></script>
+  <!-- Control Center for ui Kit -->
+  <script src="js/vendor/now-ui-kit.min.js" type="text/javascript"></script>
   <!-- Google Analytics -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
