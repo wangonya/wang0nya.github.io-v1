@@ -154,7 +154,38 @@ textarea {
     stroke-dashoffset: 0;
 }
 
+/*tech dots*/
+.dot-html5 {
+    height: 10px;
+    width: 10px;
+    background-color: #FF4500;
+    border-radius: 50%;
+    display: inline-block;
+}
 
+.dot-js {
+    height: 10px;
+    width: 10px;
+    background-color: #f7df1e;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-angular {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-wp {
+    height: 10px;
+    width: 10px;
+    background-color: #21759b;
+    border-radius: 50%;
+    display: inline-block;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
