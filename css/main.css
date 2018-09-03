@@ -107,111 +107,11 @@ textarea {
     padding: 70px 0 30px;
 }
 
-.hovereffect {
-    width: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
-    background: -webkit-linear-gradient(45deg, #f2709c 0%, #05abe0 100%);
-    background: linear-gradient(45deg, #f2709c 0%,#05abe0 100%);
-}
-
-.hovereffect .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    padding: 3em;
-    text-align: left;
-}
-
-.hovereffect img {
-    display: block;
-    position: relative;
-    max-width: none;
-    width: calc(100% + 60px);
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-    transition: opacity 0.35s, transform 0.45s;
-    -webkit-transform: translate3d(-40px,0,0);
-    transform: translate3d(-40px,0,0);
-}
-
-.hovereffect h2 {
+.card h2 {
     text-transform: uppercase;
-    color: #fff;
     position: relative;
     font-size: 17px;
-    background-color: transparent;
-    padding: 15% 0 10px 0;
     text-align: left;
-    opacity: 0;
-}
-
-.hovereffect span {
-    text-align:left;
-    position:relative;
-    font-size:17px;
-    -webkit-transform:translatey(-100px);
-    -ms-transform:translatey(-100px);
-    transform:translatey(-100px);
-    -webkit-transition:all .2s ease-in-out;
-    transition:all .2s ease-in-out;
-    padding:10px;
-    opacity: 0;
-}
-
-.hovereffect .overlay:before {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    bottom: 20px;
-    left: 20px;
-    border: 1px solid #fff;
-    content: '';
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-    transition: opacity 0.35s, transform 0.45s;
-    -webkit-transform: translate3d(-20px,0,0);
-    transform: translate3d(-20px,0,0);
-}
-
-.hovereffect a.info {
-    text-decoration:none;
-    display:inline-block;
-    text-transform:uppercase;
-    color:#fff;
-    border:1px solid #fff;
-    background-color:transparent;
-    opacity:0;
-    filter:alpha(opacity=0);
-    -webkit-transition:all .2s ease-in-out;
-    transition:all .2s ease-in-out;
-    margin:10px 0 0;
-    padding:7px 14px;
-}
-
-.hovereffect a.info:hover {
-    box-shadow:0 0 5px #fff;
-}
-
-.hovereffect:hover img {
-    opacity: 0.2;
-    filter: alpha(opacity=60);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-}
-
-.hovereffect:hover .overlay:before,
-.hovereffect:hover a, .hovereffect:hover h2, .hovereffect:hover span {
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
 .btn-gradient {
@@ -219,6 +119,42 @@ textarea {
     background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/*animated arrow*/
+.link {
+    color: #f2709c;  /* fallback for old browsers */
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.link--arrowed {
+    display: inline-block;
+    height: 2rem;
+    line-height: 2rem;
+}
+.link--arrowed .arrow-icon {
+    position: relative;
+    top: -1px;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    vertical-align: middle;
+}
+.link--arrowed .arrow-icon--circle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.link--arrowed:hover .arrow-icon {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+}
+.link--arrowed:hover .arrow-icon--circle {
+    stroke-dashoffset: 0;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
