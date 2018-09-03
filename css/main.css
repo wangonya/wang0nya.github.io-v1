@@ -102,67 +102,82 @@ textarea {
 }
 
 .projects {
-    max-width: 700px;
+    /*max-width: 800px;*/
     margin: 0 auto;
     padding: 70px 0 30px;
 }
 
 .hovereffect {
-    width:100%;
-    /*height:100%;*/
-    float:left;
-    overflow:hidden;
-    position:relative;
-    text-align:center;
-    cursor:default;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: -webkit-linear-gradient(45deg, #f2709c 0%, #05abe0 100%);
+    background: linear-gradient(45deg, #f2709c 0%,#05abe0 100%);
 }
 
 .hovereffect .overlay {
-    width:100%;
-    height:100%;
-    position:absolute;
-    overflow:hidden;
-    top:0;
-    left:0;
-    opacity:0;
-    background-color:rgba(0,0,0,0.7);
-    -webkit-transition:all .4s ease-in-out;
-    transition:all .4s ease-in-out
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 3em;
+    text-align: left;
 }
 
 .hovereffect img {
-    display:block;
-    position:relative;
-    -webkit-transition:all .4s linear;
-    transition:all .4s linear;
+    display: block;
+    position: relative;
+    max-width: none;
+    width: calc(100% + 60px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-40px,0,0);
+    transform: translate3d(-40px,0,0);
 }
 
 .hovereffect h2 {
-    text-transform:uppercase;
-    color:#fff;
-    text-align:center;
-    position:relative;
-    font-size:17px;
-    /*background:rgba(0,0,0,0.5);*/
-    -webkit-transform:translatey(-100px);
-    -ms-transform:translatey(-100px);
-    transform:translatey(-100px);
-    -webkit-transition:all .2s ease-in-out;
-    transition:all .2s ease-in-out;
-    padding:10px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    background-color: transparent;
+    padding: 15% 0 10px 0;
+    text-align: left;
+    opacity: 0;
 }
 
 .hovereffect span {
-    text-align:center;
+    text-align:left;
     position:relative;
     font-size:17px;
-    /*background:rgba(0,0,0,0.5);*/
     -webkit-transform:translatey(-100px);
     -ms-transform:translatey(-100px);
     transform:translatey(-100px);
     -webkit-transition:all .2s ease-in-out;
     transition:all .2s ease-in-out;
     padding:10px;
+    opacity: 0;
+}
+
+.hovereffect .overlay:before {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    border: 1px solid #fff;
+    content: '';
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-20px,0,0);
+    transform: translate3d(-20px,0,0);
 }
 
 .hovereffect a.info {
@@ -176,7 +191,7 @@ textarea {
     filter:alpha(opacity=0);
     -webkit-transition:all .2s ease-in-out;
     transition:all .2s ease-in-out;
-    margin:20px 0 0;
+    margin:10px 0 0;
     padding:7px 14px;
 }
 
@@ -185,27 +200,18 @@ textarea {
 }
 
 .hovereffect:hover img {
-    -ms-transform:scale(1.2);
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2);
+    opacity: 0.2;
+    filter: alpha(opacity=60);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
-.hovereffect:hover .overlay {
-    opacity:1;
-    filter:alpha(opacity=100);
-}
-
-.hovereffect:hover h2,.hovereffect:hover a.info {
-    opacity:1;
-    filter:alpha(opacity=100);
-    -ms-transform:translatey(0);
-    -webkit-transform:translatey(0);
-    transform:translatey(0);
-}
-
-.hovereffect:hover a.info {
-    -webkit-transition-delay:.2s;
-    transition-delay:.2s;
+.hovereffect:hover .overlay:before,
+.hovereffect:hover a, .hovereffect:hover h2, .hovereffect:hover span {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 .btn-gradient {
