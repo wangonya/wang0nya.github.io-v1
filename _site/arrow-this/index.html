@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>this and arrow functions - Kinyanjui Wangonya</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Kinyanjui Wangonya" property="og:site_name">
+  
+    <meta content="this and arrow functions" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="How 'this' works in arrow functions" property="og:description">
+  
+  
+    <meta content="http://localhost:4000/arrow-this/" property="og:url">
+  
+  
+    <meta content="2018-08-27T00:00:00+03:00" property="article:published_time">
+    <meta content="http://localhost:4000/about/" property="article:author">
+  
+  
+    <meta content="http://localhost:4000/assets/img/this.png" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="javascript" property="article:tag">
+    
+    <meta content="webdev" property="article:tag">
+    
+    <meta content="functions" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="this and arrow functions">
+  
+  
+    <meta name="twitter:url" content="http://localhost:4000/arrow-this/">
+  
+  
+    <meta name="twitter:description" content="How 'this' works in arrow functions">
+  
+  
+    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/this.png">
+  
+
+	<meta name="description" content="How 'this' works in arrow functions">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>this and arrow functions | Kinyanjui Wangonya</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="this and arrow functions" />
+<meta name="author" content="Kinyanjui Wangonya" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="How ‘this’ works in arrow functions" />
+<meta property="og:description" content="How ‘this’ works in arrow functions" />
+<link rel="canonical" href="http://localhost:4000/arrow-this/" />
+<meta property="og:url" content="http://localhost:4000/arrow-this/" />
+<meta property="og:site_name" content="Kinyanjui Wangonya" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-27T00:00:00+03:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/arrow-this/"},"url":"http://localhost:4000/arrow-this/","author":{"@type":"Person","name":"Kinyanjui Wangonya"},"description":"How ‘this’ works in arrow functions","headline":"this and arrow functions","dateModified":"2018-08-27T00:00:00+03:00","datePublished":"2018-08-27T00:00:00+03:00","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/me.jpg" alt="Kinyanjui Wangonya"></a>
+      </div>
+      <div class="author-name">Kinyanjui Wangonya</div>
+      <p>Javascript coder, web, and mobile app developer focusing on front-end development. I read widely, am open minded, and always hungry to keep learning more.</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li class="github"><a href="http://github.com/wang0nya" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/wang0nya" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:kwangonya@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2018 &copy; Kinyanjui Wangonya</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/this.png alt="this and arrow functions">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">this and arrow functions</h1>
+        <div class="page-date"><span>2018, Aug 27&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>Arrow functions were introduced in ES6 as a new syntax for writing Javascript functions. Thanks to their short syntax, they encourage the use of small functions, which make code look cleaner (and <code class="highlighter-rouge">() =&gt;</code> just looks cooler 😄).</p>
+
+<p>As a beginner just getting to wrap my head around ES6 syntax, I began using arrow functions <strong>everywhere</strong> without really understanding how they worked. As you might expect, I ended up running into some problems, especially with the <code class="highlighter-rouge">this</code> keyword.</p>
+
+<p><code class="highlighter-rouge">this</code> can get a bit confusing sometimes as its value varies depending on the function’s execution context, and on the mode (strict or non-strict). Much has been written about the ins and outs of that so I’ll just focus on one thing:</p>
+
+<h2 id="how-this-works-in-arrow-functions">How <code class="highlighter-rouge">this</code> works in arrow functions</h2>
+<p>In a regular function, <code class="highlighter-rouge">this</code> refers to the object when defined as a method of an object. We can therefor do:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">brunch</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">food</span><span class="p">:</span> <span class="s1">'Dim sum'</span><span class="p">,</span>
+    <span class="na">beverage</span><span class="p">:</span> <span class="s1">'Jasmine tea'</span><span class="p">,</span>
+    <span class="na">order</span><span class="p">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s2">`I'll have the </span><span class="p">${</span><span class="k">this</span><span class="p">.</span><span class="nx">food</span><span class="p">}</span><span class="s2"> with </span><span class="p">${</span><span class="k">this</span><span class="p">.</span><span class="nx">beverage</span><span class="p">}</span><span class="s2"> please.`</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Calling <code class="highlighter-rouge">brunch.order()</code> will return <code class="highlighter-rouge">"I'll have the Dim sum with Jasmine tea please."</code></p>
+
+<p>Let’s edit that and use an arrow function for <code class="highlighter-rouge">order:</code>:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">brunch</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">food</span><span class="p">:</span> <span class="s1">'Dim sum'</span><span class="p">,</span>
+    <span class="na">beverage</span><span class="p">:</span> <span class="s1">'Jasmine tea'</span><span class="p">,</span>
+    <span class="na">order</span><span class="p">:</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s2">`I'll have the </span><span class="p">${</span><span class="k">this</span><span class="p">.</span><span class="nx">food</span><span class="p">}</span><span class="s2"> with </span><span class="p">${</span><span class="k">this</span><span class="p">.</span><span class="nx">beverage</span><span class="p">}</span><span class="s2"> please.`</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>This time, calling <code class="highlighter-rouge">brunch.order()</code> returns <code class="highlighter-rouge">"I'll have the undefined with undefined please."</code> Both <code class="highlighter-rouge">this.food</code> and <code class="highlighter-rouge">this.beverage</code> return <code class="highlighter-rouge">undefined</code>.</p>
+
+<p>It worked with the normal function, so what’s going on? In the normal function, <code class="highlighter-rouge">this</code> was our <code class="highlighter-rouge">order</code> object. When using an arrow function, <code class="highlighter-rouge">this</code> is not bound to anything and it just inherits from the parent scope which in this case is the window. Adding a <code class="highlighter-rouge">console.log(this)</code> before the <code class="highlighter-rouge">return</code> in the arrow function returns a <code class="highlighter-rouge">Window</code> object, so its looking for <code class="highlighter-rouge">Window.food</code> and <code class="highlighter-rouge">Window.beverage</code> which will obviously both be <code class="highlighter-rouge">undefined</code>.</p>
+
+<p>Arrow functions are therefor not suited as object methods.</p>
+
+<p>Another common problem area would be with event handlers. Here’s an example:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// change button colour on click
+<span class="nt">&lt;style&gt;</span>
+<span class="nc">.on</span> <span class="p">{</span><span class="nl">background</span><span class="p">:</span> <span class="no">red</span><span class="p">;}</span>
+<span class="nt">&lt;/style&gt;</span>
+
+<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"click"</span><span class="nt">&gt;</span>Toggle<span class="nt">&lt;/button&gt;</span>
+
+<span class="nt">&lt;script&gt;</span>
+<span class="kd">const</span> <span class="nx">button</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'#click'</span><span class="p">);</span>
+<span class="nx">button</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">);</span> <span class="c1">// button</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="s1">'on'</span><span class="p">);</span>
+<span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+<p>In the code above, <code class="highlighter-rouge">this</code> refers to the button. Clicking on the button toggles the colour as expected. Change the function to an arrow function:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// change button colour on click
+<span class="nt">&lt;style&gt;</span>
+<span class="nc">.on</span> <span class="p">{</span><span class="nl">background</span><span class="p">:</span> <span class="no">red</span><span class="p">;}</span>
+<span class="nt">&lt;/style&gt;</span>
+
+<span class="nt">&lt;button</span> <span class="na">id=</span><span class="s">"click"</span><span class="nt">&gt;</span>Toggle<span class="nt">&lt;/button&gt;</span>
+
+<span class="nt">&lt;script&gt;</span>
+<span class="kd">const</span> <span class="nx">button</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">'#click'</span><span class="p">);</span>
+<span class="nx">button</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">);</span> <span class="c1">// Window { ... }</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">toggle</span><span class="p">(</span><span class="s1">'on'</span><span class="p">);</span>
+<span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+<p>and <code class="highlighter-rouge">this</code> becomes the browser’s <code class="highlighter-rouge">window</code> attribute. Clicking the button will give a <code class="highlighter-rouge">TypeError</code> error. If you rely on <code class="highlighter-rouge">this</code> in an event hanlder, a regular function may be necessary.</p>
+
+<p>So, as cool and popular as arrow functions may be, its best to understand how they work, and to know when to and not to use them.</p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=this and arrow functions&url=http://localhost:4000/arrow-this/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/arrow-this/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/arrow-this/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#javascript" class="tag">&#35; javascript</a>
+          
+            <a href="/tags#webdev" class="tag">&#35; webdev</a>
+          
+            <a href="/tags#functions" class="tag">&#35; functions</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+    <div id="disqus_thread" class="article-comments"></div>
+    <script>
+      (function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//wang0nya.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-122307986-1', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>

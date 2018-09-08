@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Javascript array iteration with some() and every() - Kinyanjui Wangonya</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Kinyanjui Wangonya" property="og:site_name">
+  
+    <meta content="Javascript array iteration with some() and every()" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="using 'some()' and 'every()' to iterate arrays" property="og:description">
+  
+  
+    <meta content="http://localhost:4000/array-iteration/" property="og:url">
+  
+  
+    <meta content="2018-08-28T00:00:00+03:00" property="article:published_time">
+    <meta content="http://localhost:4000/about/" property="article:author">
+  
+  
+    <meta content="http://localhost:4000/assets/img/iterate.png" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="javascript" property="article:tag">
+    
+    <meta content="arrays" property="article:tag">
+    
+    <meta content="beginners" property="article:tag">
+    
+    <meta content="webdev" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="Javascript array iteration with some() and every()">
+  
+  
+    <meta name="twitter:url" content="http://localhost:4000/array-iteration/">
+  
+  
+    <meta name="twitter:description" content="using 'some()' and 'every()' to iterate arrays">
+  
+  
+    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/iterate.png">
+  
+
+	<meta name="description" content="using 'some()' and 'every()' to iterate arrays">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Javascript array iteration with some() and every() | Kinyanjui Wangonya</title>
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="Javascript array iteration with some() and every()" />
+<meta name="author" content="Kinyanjui Wangonya" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="using ‘some()’ and ‘every()’ to iterate arrays" />
+<meta property="og:description" content="using ‘some()’ and ‘every()’ to iterate arrays" />
+<link rel="canonical" href="http://localhost:4000/array-iteration/" />
+<meta property="og:url" content="http://localhost:4000/array-iteration/" />
+<meta property="og:site_name" content="Kinyanjui Wangonya" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-28T00:00:00+03:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/array-iteration/"},"url":"http://localhost:4000/array-iteration/","author":{"@type":"Person","name":"Kinyanjui Wangonya"},"description":"using ‘some()’ and ‘every()’ to iterate arrays","headline":"Javascript array iteration with some() and every()","dateModified":"2018-08-28T00:00:00+03:00","datePublished":"2018-08-28T00:00:00+03:00","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/me.jpg" alt="Kinyanjui Wangonya"></a>
+      </div>
+      <div class="author-name">Kinyanjui Wangonya</div>
+      <p>Javascript coder, web, and mobile app developer focusing on front-end development. I read widely, am open minded, and always hungry to keep learning more.</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li class="github"><a href="http://github.com/wang0nya" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/wang0nya" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:kwangonya@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2018 &copy; Kinyanjui Wangonya</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/iterate.png alt="Javascript array iteration with some() and every()">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">Javascript array iteration with some() and every()</h1>
+        <div class="page-date"><span>2018, Aug 28&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>If you’re using an array in your code, chances are, you’ll need to iterate over the values in the array. There’s a couple of ways you can do that, some better and more efficient than others depending on what you want to accomplish.</p>
+
+<p>For this post, I’ll focus on two ways: <code class="highlighter-rouge">some()</code> and <code class="highlighter-rouge">every()</code>.</p>
+
+<h2 id="some"><code class="highlighter-rouge">some()</code></h2>
+<p>The <code class="highlighter-rouge">some()</code> method tests whether <strong>at least one</strong> element in the array passes the test implemented by the provided function. It checks the elements one by one, and if it finds an array element where the function returns a truthy value, <code class="highlighter-rouge">some()</code> returns <code class="highlighter-rouge">true</code> and does not check the remaining values. Otherwise it returns <code class="highlighter-rouge">false</code>.</p>
+
+<p>Lets say you want to check if a contact exists in your contact list:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">contacts</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'Stewie'</span><span class="p">,</span> <span class="s1">'Meg'</span><span class="p">,</span> <span class="s1">'Quagmire'</span><span class="p">,</span> <span class="s1">'Cleveland'</span><span class="p">];</span>
+
+<span class="kd">function</span> <span class="nx">checkContacts</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">val</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">some</span><span class="p">(</span><span class="nx">arrVal</span> <span class="o">=&gt;</span> <span class="nx">val</span> <span class="o">===</span> <span class="nx">arrVal</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nx">checkContacts</span><span class="p">(</span><span class="nx">contacts</span><span class="p">,</span> <span class="s1">'Lois'</span><span class="p">);</span>   <span class="c1">// false</span>
+<span class="nx">checkContacts</span><span class="p">(</span><span class="nx">contacts</span><span class="p">,</span> <span class="s1">'Meg'</span><span class="p">);</span> <span class="c1">// true</span>
+</code></pre></div></div>
+<p>When checking for <code class="highlighter-rouge">Lois</code>, <code class="highlighter-rouge">some()</code> checks the array elements beginning at <code class="highlighter-rouge">Stewie</code> to the end, and having not found a match, returns <code class="highlighter-rouge">false</code>. When checking for <code class="highlighter-rouge">Meg</code>, it stops at <code class="highlighter-rouge">Meg</code> and returns <code class="highlighter-rouge">true</code>, ignoring the rest of the elements.</p>
+
+<h2 id="every"><code class="highlighter-rouge">every()</code></h2>
+<p>This method tests whether <strong>all</strong> elements in the array pass the test implemented by the provided function. It checks the elements one by one, and if it finds an array element where the function returns a falsy value, <code class="highlighter-rouge">every()</code> returns <code class="highlighter-rouge">false</code> and does not check the remaining values. Otherwise it returns <code class="highlighter-rouge">true</code>.</p>
+
+<p>Lets check if all the names in our contacts list have more than 3 characters:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="s1">'Stewie'</span><span class="p">,</span> <span class="s1">'Meg'</span><span class="p">,</span> <span class="s1">'Quagmire'</span><span class="p">,</span> <span class="s1">'Cleveland'</span><span class="p">].</span><span class="nx">every</span><span class="p">(</span><span class="nx">contact</span> <span class="o">=&gt;</span> <span class="nx">contact</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="p">);</span> <span class="c1">// false</span>
+<span class="p">[</span><span class="s1">'Stewie'</span><span class="p">,</span> <span class="s1">'Megan'</span><span class="p">,</span> <span class="s1">'Quagmire'</span><span class="p">,</span> <span class="s1">'Cleveland'</span><span class="p">].</span><span class="nx">every</span><span class="p">(</span><span class="nx">contact</span> <span class="o">=&gt;</span> <span class="nx">contact</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="p">);</span> <span class="c1">// true</span>
+</code></pre></div></div>
+<p>The first test returns <code class="highlighter-rouge">false</code> since <code class="highlighter-rouge">Meg</code> has only 3 characters. Remember: for <code class="highlighter-rouge">every()</code>, <em>all</em> the elements in the array have to be truthy for it to return <code class="highlighter-rouge">true</code>. Changing <code class="highlighter-rouge">Meg</code> to <code class="highlighter-rouge">Megan</code> in the second test therefore returns <code class="highlighter-rouge">true</code>.</p>
+
+<p>These two methods can come in handy if you need to perform somewhat similar tasks as described above. But of course, they’re not the only way. Hope someone finds this useful! :)</p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=Javascript array iteration with some() and every()&url=http://localhost:4000/array-iteration/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/array-iteration/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/array-iteration/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#javascript" class="tag">&#35; javascript</a>
+          
+            <a href="/tags#arrays" class="tag">&#35; arrays</a>
+          
+            <a href="/tags#beginners" class="tag">&#35; beginners</a>
+          
+            <a href="/tags#webdev" class="tag">&#35; webdev</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+    <div id="disqus_thread" class="article-comments"></div>
+    <script>
+      (function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//wang0nya.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-122307986-1', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
