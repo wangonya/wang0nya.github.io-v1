@@ -16,7 +16,7 @@ According to [Fast Company](https://www.fastcompany.com/1669283/dollars-and-sens
 
 >**Numerous industry studies have stated that every dollar spent on UX brings in between $2 and $100 dollars in return.**
 
-So, with all this in mind, I'm beginning a series today, going through Steve Krug's classic - "Don’t Make Me Think! A common sense approach to web usability". I'll be posting a summary of each of the 12 chapters of the book here on this awesome community, one chapter a day.
+So, with all this in mind, I'm beginning a series today, going through Steve Krug's classic - "Don’t Make Me Think! A common sense approach to web usability". I'll be posting a summary of each of the 12 chapters of the book here, one chapter a day.
 
 Stay tuned, we'll be building a better web one day at a time for the next 12 days! 
 🎉🎉
