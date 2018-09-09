@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Don’t Make Me Think! - Series Intro
-date: 2018-09-08
+date: 2018-09-07
 description: Building a better web one day at a time for the next 12 days!
 img: usability.jpg
 tags: [webdev, introduction, ux, beginner, ui]
