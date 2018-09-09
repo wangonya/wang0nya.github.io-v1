@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Kinyanjui Wangonya</title>
+    <link>https://wang0nya.github.io/post/</link>
+    <description>Recent content in Posts on Kinyanjui Wangonya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wang0nya.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The First Law Of Usability</title>
+      <link>https://wang0nya.github.io/post/the-first-law-of-usability/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/the-first-law-of-usability/</guid>
+      <description>Krug&amp;rsquo;s first law of usability: Don&amp;rsquo;t make me think! If you want to make your app or site easy to use, don&amp;rsquo;t make people think. As far as humanly possible, make it self-evident. Obvious. Self-explanatory.
+A user with absolutely no previous knowledge or interest on your site should be able to take a first look and think, &amp;ldquo;Oh, its a _____________. Ok, there&amp;rsquo;s the _____________. And that&amp;rsquo;s a _____________. Here&amp;rsquo;s the thing that I want&amp;hellip;&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Medieval Helpdesk</title>
+      <link>https://wang0nya.github.io/post/medieval-helpdesk/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/medieval-helpdesk/</guid>
+      <description>“The human brain’s capacity doesn’t change from one year to the next, so the insights from studying human behaviour have a very long shelf life. What was difficult for users twenty years ago continues to be difficult today.” - Jakob Nielsen
+ Don’t Make Me Think! was first published 18 years ago, and if you&amp;rsquo;re just hearing about it now, it&amp;rsquo;s tempting to think: &amp;ldquo;Is it still relevant?&amp;rdquo; Well, yes.</description>
+    </item>
+    
+    <item>
+      <title>Don’t Make Me Think! - Series Intro</title>
+      <link>https://wang0nya.github.io/post/dont-make-me-think---series-intro/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/dont-make-me-think---series-intro/</guid>
+      <description>With web development getting more and more popular by the day thanks to the massive influx of javascript frameworks and design tools, I think it&amp;rsquo;s important not to loose track of one important area: web usability.
+Simply put, web usability is the ease of use of a website. Your web or mobile app may work great, but if it isn&amp;rsquo;t easy to use, people just won&amp;rsquo;t use it.
+According to Fast Company, usability is a must-have for optimal return on investment with new technologies.</description>
+    </item>
+    
+    <item>
+      <title>Why I deleted Facebook, Twitter and Instagram... and turned to Dev.to</title>
+      <link>https://wang0nya.github.io/post/why-i-deleted-facebook-twitter-and-instagram...-and-turned-to-dev.to/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/why-i-deleted-facebook-twitter-and-instagram...-and-turned-to-dev.to/</guid>
+      <description>I&amp;rsquo;ve always felt like social media was taking up a little bit too much of my time, but as a freelance dev just starting out, I felt like I needed it. How would I get my work out there? How would I make connections with other developers? How would I get clients? All these were reasons that made me (somewhat reluctantly) maintain my presence on the various social platforms&amp;hellip; until I read &amp;ldquo;Deep Work&amp;rdquo; by Cal Newport.</description>
+    </item>
+    
+    <item>
+      <title>Javascript lookaheads and lookbehinds</title>
+      <link>https://wang0nya.github.io/post/javascript-lookaheads-and-lookbehinds/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/javascript-lookaheads-and-lookbehinds/</guid>
+      <description>Regular expressions (also called regex) are patterns used to match character combinations in strings. They help us work with strings in a very performant way.
+By formulating regex with a special syntax, you can: * search text in a string * replace substrings in a string * extract information from a string
+If all this is completely new to you, take a look at the mdn web docs for more info.</description>
+    </item>
+    
+    <item>
+      <title>Javascript array iteration with some() and every()</title>
+      <link>https://wang0nya.github.io/post/javascript-array-iteration-with-some-and-every/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/javascript-array-iteration-with-some-and-every/</guid>
+      <description>If you&amp;rsquo;re using an array in your code, chances are, you&amp;rsquo;ll need to iterate over the values in the array. There&amp;rsquo;s a couple of ways you can do that, some better and more efficient than others depending on what you want to accomplish.
+For this post, I&amp;rsquo;ll focus on two ways: some() and every().
+some() The some() method tests whether at least one element in the array passes the test implemented by the provided function.</description>
+    </item>
+    
+    <item>
+      <title>this and Arrow Functions</title>
+      <link>https://wang0nya.github.io/post/this-and-arrow-functions/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/this-and-arrow-functions/</guid>
+      <description>Arrow functions were introduced in ES6 as a new syntax for writing Javascript functions. Thanks to their short syntax, they encourage the use of small functions, which make code look cleaner (and () =&amp;gt; just looks cooler 😄).
+As a beginner just getting to wrap my head around ES6 syntax, I began using arrow functions everywhere without really understanding how they worked. As you might expect, I ended up running into some problems, especially with the this keyword.</description>
+    </item>
+    
+    <item>
+      <title>Finding an element in the array (the ES5, ES6 and ES7 way)</title>
+      <link>https://wang0nya.github.io/post/finding-an-element-in-the-array-the-es5-es6-and-es7-way/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0300</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/finding-an-element-in-the-array-the-es5-es6-and-es7-way/</guid>
+      <description>Say you want to check if a specific element exists in an array. There&amp;rsquo;s a couple of ways to do that:
+ES5 indexOf() indexOf returns the index of the first matching item found, or -1 if not found.
+// check if a Fortnite ninja exists in the array const ninjas = [&amp;#39;Alchemist&amp;#39;, &amp;#39;Brawler&amp;#39;, &amp;#39;Skirmisher&amp;#39;, &amp;#39;Harvester&amp;#39;] console.log(ninjas.indexOf(&amp;#39;Brawler&amp;#39;)) // 1 console.log(ninjas.indexOf(&amp;#39;Harvester&amp;#39;)) // 3 console.log(ninjas.indexOf(&amp;#39;Assassin&amp;#39;)) // -1 (doesn&amp;#39;t exist)  lastIndexOf() lastIndexOf() returns the index of the last matching item found, or -1 if not found.</description>
+    </item>
+    
+  </channel>
+</rss>

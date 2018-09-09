@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Kinyanjui Wangonya</title>
+    <link>https://wang0nya.github.io/tags/series/</link>
+    <description>Recent content in Series on Kinyanjui Wangonya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wang0nya.github.io/tags/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Medieval Helpdesk</title>
+      <link>https://wang0nya.github.io/post/medieval-helpdesk/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/medieval-helpdesk/</guid>
+      <description>“The human brain’s capacity doesn’t change from one year to the next, so the insights from studying human behaviour have a very long shelf life. What was difficult for users twenty years ago continues to be difficult today.” - Jakob Nielsen
+ Don’t Make Me Think! was first published 18 years ago, and if you&amp;rsquo;re just hearing about it now, it&amp;rsquo;s tempting to think: &amp;ldquo;Is it still relevant?&amp;rdquo; Well, yes.</description>
+    </item>
+    
+  </channel>
+</rss>

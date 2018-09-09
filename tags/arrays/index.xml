@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arrays on Kinyanjui Wangonya</title>
+    <link>https://wang0nya.github.io/tags/arrays/</link>
+    <description>Recent content in Arrays on Kinyanjui Wangonya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wang0nya.github.io/tags/arrays/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript array iteration with some() and every()</title>
+      <link>https://wang0nya.github.io/post/javascript-array-iteration-with-some-and-every/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/javascript-array-iteration-with-some-and-every/</guid>
+      <description>If you&amp;rsquo;re using an array in your code, chances are, you&amp;rsquo;ll need to iterate over the values in the array. There&amp;rsquo;s a couple of ways you can do that, some better and more efficient than others depending on what you want to accomplish.
+For this post, I&amp;rsquo;ll focus on two ways: some() and every().
+some() The some() method tests whether at least one element in the array passes the test implemented by the provided function.</description>
+    </item>
+    
+    <item>
+      <title>Finding an element in the array (the ES5, ES6 and ES7 way)</title>
+      <link>https://wang0nya.github.io/post/finding-an-element-in-the-array-the-es5-es6-and-es7-way/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0300</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/finding-an-element-in-the-array-the-es5-es6-and-es7-way/</guid>
+      <description>Say you want to check if a specific element exists in an array. There&amp;rsquo;s a couple of ways to do that:
+ES5 indexOf() indexOf returns the index of the first matching item found, or -1 if not found.
+// check if a Fortnite ninja exists in the array const ninjas = [&amp;#39;Alchemist&amp;#39;, &amp;#39;Brawler&amp;#39;, &amp;#39;Skirmisher&amp;#39;, &amp;#39;Harvester&amp;#39;] console.log(ninjas.indexOf(&amp;#39;Brawler&amp;#39;)) // 1 console.log(ninjas.indexOf(&amp;#39;Harvester&amp;#39;)) // 3 console.log(ninjas.indexOf(&amp;#39;Assassin&amp;#39;)) // -1 (doesn&amp;#39;t exist)  lastIndexOf() lastIndexOf() returns the index of the last matching item found, or -1 if not found.</description>
+    </item>
+    
+  </channel>
+</rss>

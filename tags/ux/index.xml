@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ux on Kinyanjui Wangonya</title>
+    <link>https://wang0nya.github.io/tags/ux/</link>
+    <description>Recent content in Ux on Kinyanjui Wangonya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wang0nya.github.io/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The First Law Of Usability</title>
+      <link>https://wang0nya.github.io/post/the-first-law-of-usability/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/the-first-law-of-usability/</guid>
+      <description>Krug&amp;rsquo;s first law of usability: Don&amp;rsquo;t make me think! If you want to make your app or site easy to use, don&amp;rsquo;t make people think. As far as humanly possible, make it self-evident. Obvious. Self-explanatory.
+A user with absolutely no previous knowledge or interest on your site should be able to take a first look and think, &amp;ldquo;Oh, its a _____________. Ok, there&amp;rsquo;s the _____________. And that&amp;rsquo;s a _____________. Here&amp;rsquo;s the thing that I want&amp;hellip;&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Medieval Helpdesk</title>
+      <link>https://wang0nya.github.io/post/medieval-helpdesk/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/medieval-helpdesk/</guid>
+      <description>“The human brain’s capacity doesn’t change from one year to the next, so the insights from studying human behaviour have a very long shelf life. What was difficult for users twenty years ago continues to be difficult today.” - Jakob Nielsen
+ Don’t Make Me Think! was first published 18 years ago, and if you&amp;rsquo;re just hearing about it now, it&amp;rsquo;s tempting to think: &amp;ldquo;Is it still relevant?&amp;rdquo; Well, yes.</description>
+    </item>
+    
+    <item>
+      <title>Don’t Make Me Think! - Series Intro</title>
+      <link>https://wang0nya.github.io/post/dont-make-me-think---series-intro/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/dont-make-me-think---series-intro/</guid>
+      <description>With web development getting more and more popular by the day thanks to the massive influx of javascript frameworks and design tools, I think it&amp;rsquo;s important not to loose track of one important area: web usability.
+Simply put, web usability is the ease of use of a website. Your web or mobile app may work great, but if it isn&amp;rsquo;t easy to use, people just won&amp;rsquo;t use it.
+According to Fast Company, usability is a must-have for optimal return on investment with new technologies.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beginner on Kinyanjui Wangonya</title>
+    <link>https://wang0nya.github.io/tags/beginner/</link>
+    <description>Recent content in Beginner on Kinyanjui Wangonya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wang0nya.github.io/tags/beginner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Don’t Make Me Think! - Series Intro</title>
+      <link>https://wang0nya.github.io/post/dont-make-me-think---series-intro/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/dont-make-me-think---series-intro/</guid>
+      <description>With web development getting more and more popular by the day thanks to the massive influx of javascript frameworks and design tools, I think it&amp;rsquo;s important not to loose track of one important area: web usability.
+Simply put, web usability is the ease of use of a website. Your web or mobile app may work great, but if it isn&amp;rsquo;t easy to use, people just won&amp;rsquo;t use it.
+According to Fast Company, usability is a must-have for optimal return on investment with new technologies.</description>
+    </item>
+    
+  </channel>
+</rss>

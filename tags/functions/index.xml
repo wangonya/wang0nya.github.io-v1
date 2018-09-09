@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functions on Kinyanjui Wangonya</title>
+    <link>https://wang0nya.github.io/tags/functions/</link>
+    <description>Recent content in Functions on Kinyanjui Wangonya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wang0nya.github.io/tags/functions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>this and Arrow Functions</title>
+      <link>https://wang0nya.github.io/post/this-and-arrow-functions/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wang0nya.github.io/post/this-and-arrow-functions/</guid>
+      <description>Arrow functions were introduced in ES6 as a new syntax for writing Javascript functions. Thanks to their short syntax, they encourage the use of small functions, which make code look cleaner (and () =&amp;gt; just looks cooler 😄).
+As a beginner just getting to wrap my head around ES6 syntax, I began using arrow functions everywhere without really understanding how they worked. As you might expect, I ended up running into some problems, especially with the this keyword.</description>
+    </item>
+    
+  </channel>
+</rss>

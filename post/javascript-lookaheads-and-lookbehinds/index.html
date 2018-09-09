@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="Javascript coder, web, and mobile app developer. I read widely, am open minded, and always hungry to keep learning more.">
+
+    
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
+    
+
+    <link rel="icon" type="image/png" href="https://wang0nya.github.io/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://wang0nya.github.io/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://wang0nya.github.io/favicon_128x128.png" sizes="128x128">
+    <script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https://wang0nya.github.io/"
+    },
+    "articleSection" : "post",
+    "name" : "Javascript lookaheads and lookbehinds",
+    "headline" : "Javascript lookaheads and lookbehinds",
+    "description" : "A look at javascript regex lookaheads and lookbehinds",
+    "inLanguage" : "en-US",
+    "author" : "",
+    "creator" : "",
+    "publisher": "",
+    "accountablePerson" : "",
+    "copyrightHolder" : "",
+    "copyrightYear" : "29088",
+    "datePublished": "2018-08-29 00:00:00 &#43;0000 UTC",
+    "dateModified" : "2018-08-29 00:00:00 &#43;0000 UTC",
+    "url" : "https://wang0nya.github.io/post/javascript-lookaheads-and-lookbehinds/",
+    "wordCount" : "483",
+    "keywords" : [ "javascript","coding","regex","beginners","Blog" ]
+}
+</script>
+    <title>
+      
+      
+         Javascript lookaheads and lookbehinds 
+      
+    </title>
+    <link rel="canonical" href="https://wang0nya.github.io/post/javascript-lookaheads-and-lookbehinds/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+</style>
+
+
+    
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="https://wang0nya.github.io/">Kinyanjui Wangonya</a></h1>
+      <ul>
+        
+          <li><a href="https://wang0nya.github.io/about">About Me</a></li>
+        
+      </ul>
+    </section>
+
+
+<section id=content>
+  <h1> Javascript lookaheads and lookbehinds </h1>
+
+  
+    <div id=sub-header>
+      August 2018 · 3 minute read
+    </div>
+  
+
+  <div class="entry-content">
+    
+
+<p>Regular expressions (also called regex) are patterns used to match character combinations in strings. They help us work with strings in a very performant way.</p>
+
+<p>By formulating regex with a special syntax, you can:
+* search text in a string
+* replace substrings in a string
+* extract information from a string</p>
+
+<p>If all this is completely new to you, take a look at the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">mdn web docs</a> for more info.</p>
+
+<p>For this post, I&rsquo;ll focus on one of the easier (and very useful) ways you can use regex.</p>
+
+<h2 id="lookaheads-match-a-string-depending-on-what-follows-it">Lookaheads: match a string depending on what follows it</h2>
+
+<h3 id="format-x-y">Format: <code>x(?=y)</code></h3>
+
+<p><code>x(?=y)</code> matches &lsquo;x&rsquo; only if &lsquo;x&rsquo; is followed by &lsquo;y&rsquo;.
+Let&rsquo;s see an example:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="font-style:italic">// check to see if we have the right &#39;Kanye&#39;
+</span><span style="font-style:italic">// /Kanye(?= West)/ : the string &#39;Kanye&#39; must be followed by &#39;West&#39;
+</span><span style="font-style:italic"></span>
+<span style="font-style:italic">/Kanye(?= West)/</span>.test(<span style="font-style:italic">&#39;I heard Kanye will be performing tonight&#39;</span>) <span style="font-style:italic">// false. we cant really be sure it&#39;s the right Kanye
+</span><span style="font-style:italic"></span><span style="font-style:italic">/Kanye(?= West)/</span>.test(<span style="font-style:italic">&#39;I heard Kanye East will be performing tonight&#39;</span>) <span style="font-style:italic">// false. Kanye who???
+</span><span style="font-style:italic"></span><span style="font-style:italic">/Kanye(?= West)/</span>.test(<span style="font-style:italic">&#39;I heard Kanye West will be performing tonight&#39;</span>) <span style="font-style:italic">// true
+</span><span style="font-style:italic"></span></code></pre></div>
+<p>You can also do <code>/Kanye(?= West | East)/</code> to match Kanye if it&rsquo;s followed by either &lsquo;East&rsquo; or &lsquo;West&rsquo;.</p>
+
+<h3 id="format-x-y-1">Format: <code>x(?!y)</code></h3>
+
+<p><code>x(?!y)</code> performs the inverse operation, matching &lsquo;x&rsquo; only if &lsquo;x&rsquo; is <strong>not</strong> followed by &lsquo;y&rsquo;. This is called a negated lookahead.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="font-style:italic">// we want a different &#39;Kanye&#39;
+</span><span style="font-style:italic">// /Kanye(?! West)/ : the string &#39;Kanye&#39; must not be followed by &#39;West&#39;
+</span><span style="font-style:italic"></span>
+<span style="font-style:italic">/Kanye(?! West)/</span>.test(<span style="font-style:italic">&#39;I heard Kanye will be performing tonight&#39;</span>) <span style="font-style:italic">// true. might be West, but I&#39;ll just take the risk and see
+</span><span style="font-style:italic"></span><span style="font-style:italic">/Kanye(?! West)/</span>.test(<span style="font-style:italic">&#39;I heard Kanye East will be performing tonight&#39;</span>) <span style="font-style:italic">// true. let&#39;s give the new guy a chance
+</span><span style="font-style:italic"></span><span style="font-style:italic">/Kanye(?! West)/</span>.test(<span style="font-style:italic">&#39;I heard Kanye West will be performing tonight&#39;</span>) <span style="font-style:italic">// false 
+</span><span style="font-style:italic"></span></code></pre></div>
+<h2 id="lookbehinds-match-a-string-depending-on-what-precedes-it">Lookbehinds: match a string depending on what precedes it</h2>
+
+<p><strong>This is an <a href="https://github.com/tc39/proposal-regexp-lookbehind">ES2018</a> feature</strong> 🎉🎊🚀🎸🤘🏾</p>
+
+<h3 id="format-y-x">Format: <code>(?&lt;=y)x</code></h3>
+
+<p><code>(?&lt;=y)x</code> matches &lsquo;x&rsquo; only if it&rsquo;s preceded by &lsquo;y&rsquo;</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="font-style:italic">// check to see if we have the right &#39;Kanye West&#39;
+</span><span style="font-style:italic">// /(?&lt;= Kanye) West/ : the string &#39;West&#39; must be preceded by &#39;Kanye&#39;
+</span><span style="font-style:italic"></span>
+<span style="font-style:italic">/(?&lt;= Kanye) West/</span>.test(<span style="font-style:italic">&#39;I heard West will be performing tonight&#39;</span>) <span style="font-style:italic">// false. we cant really be sure it&#39;s the right West 
+</span><span style="font-style:italic"></span><span style="font-style:italic">/(?&lt;= Kanye) West/</span>.test(<span style="font-style:italic">&#39;I heard Keith West will be performing tonight&#39;</span>) <span style="font-style:italic">// false 
+</span><span style="font-style:italic"></span><span style="font-style:italic">/(?&lt;= Kanye) West/</span>.test(<span style="font-style:italic">&#39;I heard Kanye West will be performing tonight&#39;</span>) <span style="font-style:italic">// true
+</span><span style="font-style:italic"></span></code></pre></div>
+<h3 id="format-y-x-1">Format: <code>(?&lt;!y)x</code></h3>
+
+<p><code>(?&lt;!y)x</code> matches &lsquo;x&rsquo; only if it&rsquo;s <strong>not</strong> preceded by &lsquo;y&rsquo;</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="font-style:italic">// check to see if we have another &#39;West&#39;
+</span><span style="font-style:italic">// /(?&lt;= Kanye) West/ : the string &#39;West&#39; must be not be preceded by &#39;Kanye&#39;
+</span><span style="font-style:italic"></span>
+<span style="font-style:italic">/(?&lt;! Kanye) West/</span>.test(<span style="font-style:italic">&#39;I heard West will be performing tonight&#39;</span>) <span style="font-style:italic">// true 
+</span><span style="font-style:italic"></span><span style="font-style:italic">/(?&lt;! Kanye) West/</span>.test(<span style="font-style:italic">&#39;I heard Keith West will be performing tonight&#39;</span>) <span style="font-style:italic">// true 
+</span><span style="font-style:italic"></span><span style="font-style:italic">/(?&lt;! Kanye) West/</span>.test(<span style="font-style:italic">&#39;I heard Kanye West will be performing tonight&#39;</span>) <span style="font-style:italic">// false
+</span><span style="font-style:italic"></span></code></pre></div>
+<p>There you have it 😄. Regex might be a bit hard to master, but once you do, you&rsquo;ll find that it makes working with strings so much easier.</p>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="https://wang0nya.github.io/post/javascript-array-iteration-with-some-and-every/">&laquo; Javascript array iteration with some() and every()</a>
+    
+    
+      <a class="basic-alignment left" href="https://wang0nya.github.io/post/why-i-deleted-facebook-twitter-and-instagram...-and-turned-to-dev.to/">Why I deleted Facebook, Twitter and Instagram... and turned to Dev.to &raquo;</a>
+    
+  </div>
+</section>
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-122307986-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+
+
+

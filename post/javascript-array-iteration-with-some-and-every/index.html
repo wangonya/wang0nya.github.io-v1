@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.48" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
@@ -25,31 +24,31 @@
          "@type": "WebPage",
          "@id": "https://wang0nya.github.io/"
     },
-    "articleSection" : "",
-    "name" : "Kinyanjui Wangonya",
-    "headline" : "Kinyanjui Wangonya",
-    "description" : "",
+    "articleSection" : "post",
+    "name" : "Javascript array iteration with some() and every()",
+    "headline" : "Javascript array iteration with some() and every()",
+    "description" : "Javascript array iteration with some() and every()",
     "inLanguage" : "en-US",
     "author" : "",
     "creator" : "",
     "publisher": "",
     "accountablePerson" : "",
     "copyrightHolder" : "",
-    "copyrightYear" : "9098",
-    "datePublished": "2018-09-09 00:00:00 &#43;0000 UTC",
-    "dateModified" : "2018-09-09 00:00:00 &#43;0000 UTC",
-    "url" : "https://wang0nya.github.io/",
-    "wordCount" : "0",
-    "keywords" : [ "Blog" ]
+    "copyrightYear" : "28088",
+    "datePublished": "2018-08-28 00:00:00 &#43;0000 UTC",
+    "dateModified" : "2018-08-28 00:00:00 &#43;0000 UTC",
+    "url" : "https://wang0nya.github.io/post/javascript-array-iteration-with-some-and-every/",
+    "wordCount" : "350",
+    "keywords" : [ "javascript","webdev","arrays","beginners","Blog" ]
 }
 </script>
     <title>
       
       
-         Kinyanjui Wangonya 
+         Javascript array iteration with some() and every() 
       
     </title>
-    <link rel="canonical" href="https://wang0nya.github.io/">
+    <link rel="canonical" href="https://wang0nya.github.io/post/javascript-array-iteration-with-some-and-every/">
 
     <style>
   * {
@@ -414,8 +413,6 @@
 
 
     
-      <link href="https://wang0nya.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Kinyanjui Wangonya" />
-    
   </head>
 
   <body>
@@ -430,72 +427,59 @@
 
 
 <section id=content>
-  <ul class=posts_listing>
+  <h1> Javascript array iteration with some() and every() </h1>
+
+  
+    <div id=sub-header>
+      August 2018 · 2 minute read
+    </div>
+  
+
+  <div class="entry-content">
     
-      <li>
-        <h2><a href="https://wang0nya.github.io/post/the-first-law-of-usability/">The First Law Of Usability</a></h2>
-        <div id=date>
-          <time>September 2018</time>
-        </div>
-      </li>
+
+<p>If you&rsquo;re using an array in your code, chances are, you&rsquo;ll need to iterate over the values in the array. There&rsquo;s a couple of ways you can do that, some better and more efficient than others depending on what you want to accomplish.</p>
+
+<p>For this post, I&rsquo;ll focus on two ways: <code>some()</code> and <code>every()</code>.</p>
+
+<h2 id="some"><code>some()</code></h2>
+
+<p>The <code>some()</code> method tests whether <strong>at least one</strong> element in the array passes the test implemented by the provided function. It checks the elements one by one, and if it finds an array element where the function returns a truthy value, <code>some()</code> returns <code>true</code> and does not check the remaining values. Otherwise it returns <code>false</code>.</p>
+
+<p>Lets say you want to check if a contact exists in your contact list:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="font-weight:bold">const</span> contacts = [<span style="font-style:italic">&#39;Stewie&#39;</span>, <span style="font-style:italic">&#39;Meg&#39;</span>, <span style="font-style:italic">&#39;Quagmire&#39;</span>, <span style="font-style:italic">&#39;Cleveland&#39;</span>];
+
+<span style="font-weight:bold">function</span> checkContacts(arr, val) {
+  <span style="font-weight:bold">return</span> arr.some(arrVal =&gt; val === arrVal);
+}
+
+checkContacts(contacts, <span style="font-style:italic">&#39;Lois&#39;</span>);   <span style="font-style:italic">// false
+</span><span style="font-style:italic"></span>checkContacts(contacts, <span style="font-style:italic">&#39;Meg&#39;</span>); <span style="font-style:italic">// true
+</span><span style="font-style:italic"></span></code></pre></div>
+<p>When checking for <code>Lois</code>, <code>some()</code> checks the array elements beginning at <code>Stewie</code> to the end, and having not found a match, returns <code>false</code>. When checking for <code>Meg</code>, it stops at <code>Meg</code> and returns <code>true</code>, ignoring the rest of the elements.</p>
+
+<h2 id="every"><code>every()</code></h2>
+
+<p>This method tests whether <strong>all</strong> elements in the array pass the test implemented by the provided function. It checks the elements one by one, and if it finds an array element where the function returns a falsy value, <code>every()</code> returns <code>false</code> and does not check the remaining values. Otherwise it returns <code>true</code>.</p>
+
+<p>Lets check if all the names in our contacts list have more than 3 characters:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">[<span style="font-style:italic">&#39;Stewie&#39;</span>, <span style="font-style:italic">&#39;Meg&#39;</span>, <span style="font-style:italic">&#39;Quagmire&#39;</span>, <span style="font-style:italic">&#39;Cleveland&#39;</span>].every(contact =&gt; contact.length &gt;= 4); <span style="font-style:italic">// false
+</span><span style="font-style:italic"></span>[<span style="font-style:italic">&#39;Stewie&#39;</span>, <span style="font-style:italic">&#39;Megan&#39;</span>, <span style="font-style:italic">&#39;Quagmire&#39;</span>, <span style="font-style:italic">&#39;Cleveland&#39;</span>].every(contact =&gt; contact.length &gt;= 4); <span style="font-style:italic">// true
+</span><span style="font-style:italic"></span></code></pre></div>
+<p>The first test returns <code>false</code> since <code>Meg</code> has only 3 characters. Remember: for <code>every()</code>, <em>all</em> the elements in the array have to be truthy for it to return <code>true</code>. Changing <code>Meg</code> to <code>Megan</code> in the second test therefore returns <code>true</code>.</p>
+
+<p>These two methods can come in handy if you need to perform somewhat similar tasks as described above. But of course, they&rsquo;re not the only way. Hope someone finds this useful! :)</p>
+
+  </div>
+
+  <div id=links>
     
-      <li>
-        <h2><a href="https://wang0nya.github.io/post/medieval-helpdesk/">Medieval Helpdesk</a></h2>
-        <div id=date>
-          <time>September 2018</time>
-        </div>
-      </li>
+      <a class="basic-alignment left" href="https://wang0nya.github.io/post/this-and-arrow-functions/">&laquo; this and Arrow Functions</a>
     
-      <li>
-        <h2><a href="https://wang0nya.github.io/post/dont-make-me-think---series-intro/">Don’t Make Me Think! - Series Intro</a></h2>
-        <div id=date>
-          <time>September 2018</time>
-        </div>
-      </li>
     
-      <li>
-        <h2><a href="https://wang0nya.github.io/post/why-i-deleted-facebook-twitter-and-instagram...-and-turned-to-dev.to/">Why I deleted Facebook, Twitter and Instagram... and turned to Dev.to</a></h2>
-        <div id=date>
-          <time>September 2018</time>
-        </div>
-      </li>
+      <a class="basic-alignment left" href="https://wang0nya.github.io/post/javascript-lookaheads-and-lookbehinds/">Javascript lookaheads and lookbehinds &raquo;</a>
     
-      <li>
-        <h2><a href="https://wang0nya.github.io/post/javascript-lookaheads-and-lookbehinds/">Javascript lookaheads and lookbehinds</a></h2>
-        <div id=date>
-          <time>August 2018</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="https://wang0nya.github.io/post/javascript-array-iteration-with-some-and-every/">Javascript array iteration with some() and every()</a></h2>
-        <div id=date>
-          <time>August 2018</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="https://wang0nya.github.io/post/this-and-arrow-functions/">this and Arrow Functions</a></h2>
-        <div id=date>
-          <time>August 2018</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="https://wang0nya.github.io/post/finding-an-element-in-the-array-the-es5-es6-and-es7-way/">Finding an element in the array (the ES5, ES6 and ES7 way)</a></h2>
-        <div id=date>
-          <time>August 2018</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="https://wang0nya.github.io/about/">About Me</a></h2>
-        <div id=date>
-          <time>January 0001</time>
-        </div>
-      </li>
-    
-  </ul>
+  </div>
 </section>
 
   
@@ -512,5 +496,6 @@ if (!doNotTrack) {
 
 </body>
 </html>
+
 
 
